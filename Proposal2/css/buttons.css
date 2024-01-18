@@ -1,0 +1,18 @@
+/* BUTTONS */
+
+.btn-primary {
+	padding: 10px;
+	border-radius: 30px;
+	background-color: #c6076f;
+	color: white;
+}
+
+.btn-primary:hover {
+	padding: 10px;
+	border-radius: 30px;
+	background-color: #f3d8e5;
+	color: black;
+}
+
+.btn-secondary {
+}
