@@ -1,15 +1,26 @@
 /* TYPOGRAPHY */
+@import url("https://use.typekit.net/siu4elx.css");
 
 h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 94px;
 }
 
 h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
 }
 
 h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 48px;
 }
 
 h4 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 32px;
 }
 
 h5 {
@@ -19,7 +30,25 @@ h6 {
 }
 
 p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 21px;
 }
 
 a {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 21px;
 }
