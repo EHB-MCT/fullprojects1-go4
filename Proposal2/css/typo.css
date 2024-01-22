@@ -5,6 +5,7 @@ h1 {
 	font-family: "Lexend", sans-serif;
 	font-size: 80px;
 	font-weight: 900;
+	color: #fff;
 }
 
 h2 {
@@ -47,4 +48,8 @@ li {
 	font-family: "Lexend", sans-serif;
 	font-weight: 100;
 	font-size: 21px;
+}
+
+.strong2 {
+	background-color: #ffaad9;
 }

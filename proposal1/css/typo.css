@@ -1,5 +1,6 @@
 /* TYPOGRAPHY */
-@import url("https://use.typekit.net/siu4elx.css");
+@import url("https://use.typekit.net/kgk3svi.css");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;900&display=swap");
 
 h1 {
 	font-family: "Roboto", sans-serif;
@@ -30,13 +31,13 @@ h6 {
 }
 
 p {
-	font-family: "Roboto", sans-serif;
+	font-family: "Myriad", sans-serif;
 	font-weight: 100;
 	font-size: 21px;
 }
 
 a {
-	font-family: "Roboto", sans-serif;
+	font-family: "Myriad Pro", sans-serif;
 	font-weight: bold;
 	font-size: 21px;
 	text-decoration: none;
@@ -48,7 +49,7 @@ a:hover {
 }
 
 li {
-	font-family: "Roboto", sans-serif;
+	font-family: "Myriad Pro", sans-serif;
 	font-weight: 100;
 	font-size: 21px;
 }
