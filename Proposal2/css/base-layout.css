@@ -21,7 +21,7 @@ main {
 .rectangle2 {
 	height: 200px;
 	width: 100vw;
-	top: 1250px;
+	top: 1325px;
 	z-index: 99;
 }
 
@@ -108,6 +108,10 @@ main {
 }
 
 /*Footer*/
+
+footer {
+	top: 3000px;
+}
 .wrapper_footer {
 	width: 1200px;
 	margin: 5px auto;
