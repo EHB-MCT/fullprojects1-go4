@@ -164,10 +164,11 @@ footer {
 }
 
 .footer_contact h3 {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .footer_contact_inhoud {
+	height: 50px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
