@@ -1,11 +1,10 @@
 nav {
 	background-color: white;
 	color: black;
-	padding: 15px;
+	padding: 15px 50px 0 0;
 	text-align: center;
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 50px;
 }
 
 .dropdown {
