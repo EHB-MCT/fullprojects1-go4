@@ -5,7 +5,6 @@ body {
 }
 
 main {
-	/*height: 600px;*/
 	margin-bottom: 150px;
 }
 
@@ -13,14 +12,13 @@ main {
 .rectangle2 {
 	position: absolute;
 	height: 1400px;
-	width: 100vw;
+	width: 100%;
 	background-color: #c6076f;
 	z-index: -1;
 	transform: skew(0deg, -5deg);
 }
 .rectangle2 {
 	height: 200px;
-	width: 100vw;
 	top: 1325px;
 	z-index: 99;
 }
@@ -53,16 +51,12 @@ main {
 
 .info {
 	margin-top: 150px;
-	display: flex;
-	justify-content: space-evenly;
 }
 
 .infoImg {
 	margin-top: 100px;
 	display: flex;
 	flex-direction: column;
-	height: 500px;
-	background-color: aquamarine;
 	width: 23%;
 	text-align: start;
 }
