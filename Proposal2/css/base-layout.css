@@ -2,11 +2,11 @@
 
 body {
 	margin: 0;
-	height: 3000px;
 }
 
 main {
-	height: 600px;
+	/*height: 600px;*/
+	margin-bottom: 150px;
 }
 
 .rectangle,
@@ -110,7 +110,7 @@ main {
 /*Footer*/
 
 footer {
-	top: 3000px;
+	margin-top: auto;
 }
 .wrapper_footer {
 	width: 1200px;
