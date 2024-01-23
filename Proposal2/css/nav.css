@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;900&display=swap");
+
 .logo {
 	display: flex;
 	align-items: flex-start;
@@ -40,6 +42,9 @@ nav {
 	z-index: 1;
 	width: 200px;
 	text-align: left;
+}
+.dropdown-content a {
+	font-family: "Lexend", sans-serif;
 }
 
 .dropdown:hover .dropdown-content {
