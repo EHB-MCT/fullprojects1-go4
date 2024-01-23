@@ -5,6 +5,7 @@ main {
 
 .rectangle,
 .rectangle2 {
+	margin-top: 20px;
 	position: absolute;
 	height: 1400px;
 	width: 100%;
