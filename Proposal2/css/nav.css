@@ -4,13 +4,13 @@
 	display: flex;
 	align-items: flex-start;
 	margin-right: auto;
-	margin-left: 30px;
-	margin-top: 20px;
+	margin-left: 50px;
+	margin-top: 10px;
 	margin-bottom: 15px;
 }
 .logo img {
 	width: auto;
-	height: 100px;
+	height: 150px;
 }
 
 nav {
