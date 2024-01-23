@@ -20,6 +20,7 @@ nav {
 	text-align: center;
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 150px;
 }
 .logo {
 	display: flex;
