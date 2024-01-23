@@ -1,11 +1,26 @@
+.logo {
+	display: flex;
+	align-items: flex-start;
+	margin-right: auto;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.logo img {
+	width: auto;
+	height: 100px;
+}
+
 nav {
 	background-color: white;
 	color: black;
-	padding: 15px;
+	padding: 15px 50px 0 0;
 	text-align: center;
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 50px;
+}
+.logo {
+	display: flex;
 }
 
 .dropdown {
