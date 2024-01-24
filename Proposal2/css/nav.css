@@ -7,6 +7,8 @@
 	margin-left: 50px;
 	margin-top: 10px;
 	margin-bottom: 15px;
+	height: 75px;
+	width: auto;
 }
 .logo img {
 	width: auto;
@@ -14,16 +16,16 @@
 }
 
 nav {
-	background-color: white;
+	background-color: lightgray;
 	color: black;
 	padding: 15px 70px 0 0;
 	text-align: center;
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 150px;
-}
-.logo {
-	display: flex;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	margin-top: -180px;
 }
 
 .dropdown {
