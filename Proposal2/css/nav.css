@@ -16,16 +16,24 @@
 }
 
 nav {
+	width: auto;
+
 	background-color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
-	margin-top: -180px;
+	margin-top: -200px;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	margin-right: 100px;
 }
 
 .dropdown {
