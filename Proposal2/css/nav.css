@@ -40,9 +40,9 @@ nav {
 .navigation {
 	display: flex;
 	flex-direction: row;
+
 	margin-right: 100px;
 }
-
 .dropdown {
 	margin: 0 15px;
 	position: relative;
