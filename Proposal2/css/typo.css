@@ -61,5 +61,6 @@ li {
 	margin-left: -40px;
 }
 
-.a-smaller {
+.graad-list {
+	list-style: circle;
 }
