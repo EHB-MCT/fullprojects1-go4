@@ -60,9 +60,12 @@ nav {
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 	width: 200px;
-	text-align: left;
 }
-
+.dropdown-content a {
+	color: #c6076f;
+	font-weight: 400;
+	font-size: 21px;
+}
 .dropdown:hover .dropdown-content {
 	display: block;
 }
