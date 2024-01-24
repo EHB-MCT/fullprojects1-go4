@@ -12,12 +12,12 @@ main {
 	width: 100%;
 	background-color: #c6076f;
 	z-index: -1;
-	transform: skew(0deg, -5deg);
+	transform: skew(0deg, -3deg);
 }
 .rectangle2 {
 	height: 200px;
 	top: 1400px;
-	z-index: 99;
+	z-index: 50;
 }
 
 .headerFull,
