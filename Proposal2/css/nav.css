@@ -12,20 +12,35 @@
 }
 .logo img {
 	width: auto;
-	height: 105px;
+	height: 150px;
 }
 
 nav {
-	background-color: #ffffff;
-	color: black;
-	padding: 15px 70px 0 0;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	text-align: center;
 	display: flex;
 	justify-content: flex-end;
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
-	margin-top: -180px;
+	margin-top: -200px;
+}
+.triangel {
+	border-top: 0 solid transparent;
+	border-left: 100vw solid white;
+	border-bottom: 100px solid transparent;
+	height: 1px;
+	width: 100%;
+	position: fixed;
+	margin-top: -66px;
+	z-index: 51;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+	margin-right: 100px;
 }
 
 .dropdown {
