@@ -98,6 +98,49 @@ main {
 @media screen and (max-width: 1200px) {
 }
 
+/*Main basis structuur*/
+
+.basis_structuur_top {
+	background-color: #c6076f;
+	width: 100%;
+	height: 80px;
+}
+
+.basis_structuur_top h2 {
+	padding-top: 10px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.basis_structuur_wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.basis_blokken {
+	display: flex;
+	width: 100%;
+	margin: 50px auto;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.basis_blok {
+	background-color: #c6076f;
+	margin-bottom: 50px;
+	height: 100px;
+	width: 200px;
+}
+
+.basis_structuur_bottom {
+	background-color: #c6076f;
+	width: 100%;
+	height: 80px;
+	margin-top: 50px;
+	transform: skew(0deg, -3deg);
+}
+
 /*Footer*/
 
 footer {
