@@ -32,7 +32,8 @@ p {
 	font-size: 16px;
 }
 
-a {
+a,
+.a-smaller {
 	font-family: "Lexend", sans-serif;
 	font-weight: bold;
 	font-size: 21px;
@@ -53,4 +54,12 @@ span {
 
 .strong2 {
 	background-color: #ffaad9;
+}
+
+li {
+	list-style: none;
+	margin-left: -40px;
+}
+
+.a-smaller {
 }
