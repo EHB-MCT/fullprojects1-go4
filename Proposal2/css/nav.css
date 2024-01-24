@@ -12,7 +12,7 @@
 }
 .logo img {
 	width: auto;
-	height: 150px;
+	height: 105px;
 }
 
 nav {
@@ -34,6 +34,8 @@ nav {
 	text-align: center;
 	align-content: center;
 	align-items: center;
+	font-family: "Lexend", sans-serif;
+	color: #c6076f;
 }
 
 .dropdown-content {
