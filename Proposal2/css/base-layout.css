@@ -123,18 +123,28 @@ main {
 	justify-content: center;
 }
 
-.basis_structuur_wrapper {
+.basis_structuur_bottom {
+	background-color: #c6076f;
+	width: 100%;
+	height: 80px;
+	margin-top: 50px;
+	transform: skew(0deg, -3deg);
+}
+
+/*wie is wie pagina*/
+
+.wieiswie_wrapper {
 	width: 1200px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 }
 
-.basis_structuur_wrapper h4 {
+.wieiswie_wrapper h4 {
 	margin-bottom: 0;
 }
 
-.basis_structuur_wrapper p {
+.wieiswie_wrapper p {
 	margin-top: 10px;
 }
 
@@ -297,12 +307,20 @@ main {
 	justify-content: center;
 }
 
-.basis_structuur_bottom {
-	background-color: #c6076f;
-	width: 100%;
-	height: 80px;
-	margin-top: 50px;
-	transform: skew(0deg, -3deg);
+/*Maximumfactuur pagina*/
+
+.factuur_wrapper {
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.factuur_links {
+	display: flex;
+	flex-direction: row;
+}
+
+.factuur_links_blok {
 }
 
 /*Footer*/
