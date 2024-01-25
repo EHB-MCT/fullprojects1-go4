@@ -123,18 +123,28 @@ main {
 	justify-content: center;
 }
 
-.basis_structuur_wrapper {
+.basis_structuur_bottom {
+	background-color: #c6076f;
+	width: 100%;
+	height: 80px;
+	margin-top: 50px;
+	transform: skew(0deg, -3deg);
+}
+
+/*wie is wie pagina*/
+
+.wieiswie_wrapper {
 	width: 1200px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 }
 
-.basis_structuur_wrapper h4 {
+.wieiswie_wrapper h4 {
 	margin-bottom: 0;
 }
 
-.basis_structuur_wrapper p {
+.wieiswie_wrapper p {
 	margin-top: 10px;
 }
 
@@ -297,12 +307,17 @@ main {
 	justify-content: center;
 }
 
-.basis_structuur_bottom {
-	background-color: #c6076f;
-	width: 100%;
-	height: 80px;
-	margin-top: 50px;
-	transform: skew(0deg, -3deg);
+/*Maximumfactuur pagina*/
+
+.factuur_wrapper {
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.factuur_links {
+	display: flex;
+	flex-direction: row;
 }
 
 /*Footer*/
@@ -416,6 +431,28 @@ footer {
 	justify-content: flex-end;
 	align-items: end;
 }
+.theGo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.go {
+	font-size: 30px;
+	padding: 65px;
+	border-radius: 40px;
+	background-color: #c6076f;
+	color: white;
+	display: inline-block;
+}
+
+.go:hover {
+	font-size: 30px;
+	padding: 65px;
+	border-radius: 40px;
+	background-color: #f3d8e5;
+	color: black;
+}
 
 /*social media*/
 
@@ -453,6 +490,7 @@ footer {
 #map {
 	width: 500px;
 	height: 100vh;
+	margin-right: 5px;
 }
 
 #info-container {
@@ -462,6 +500,29 @@ footer {
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
+	margin-right: 5px;
+}
+.contact .basis_blok {
+	padding: 15px;
+	flex: 2;
+	margin-bottom: 50px;
+	background: #c6076f;
+	color: #fff;
+	margin-top: 30px;
+	box-shadow: -10px -10px #ff8ecc;
+}
+.contact .basis_blok a {
+	color: #fff;
+}
+.main_map {
+	display: flex;
+	flex-direction: row;
+}
+
+.info {
+	margin-top: 10px;
+
+	flex: 1;
 }
 
 h1 {
