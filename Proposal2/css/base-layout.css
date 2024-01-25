@@ -472,3 +472,20 @@ address {
 	text-align: center;
 	margin-bottom: 10px;
 }
+
+/*regelement*/
+.leefregels {
+	margin: 30px;
+}
+
+.respect-welzijn {
+	margin: 30px;
+}
+
+.communicatie-opvolging {
+	margin: 30px;
+}
+
+.sancties {
+	margin: 30px;
+}
