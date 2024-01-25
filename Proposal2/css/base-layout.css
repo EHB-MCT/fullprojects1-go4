@@ -129,8 +129,16 @@ main {
 .basis_blok {
 	background-color: #c6076f;
 	margin-bottom: 50px;
+	margin-left: 50px;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	align-items: center;
+	align-content: center;
+}
+.basis_blok img {
 	height: 100px;
-	width: 200px;
+	width: auto;
 }
 
 .basis_structuur_bottom {
