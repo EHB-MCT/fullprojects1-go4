@@ -12,10 +12,11 @@
 }
 .logo img {
 	width: auto;
-	height: 150px;
+	height: 153px;
 }
 
 nav {
+	animation: nav-load var(--nav-load-time) ease-in;
 	background-color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
