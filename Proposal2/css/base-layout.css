@@ -1,7 +1,11 @@
 /* BASE LAYOUT FLEXBOX */
 main {
 	margin-bottom: 150px;
-	margin-top: 200px;
+	margin-top: 130px;
+}
+
+#main_home {
+	margin-top: 150px;
 }
 
 .rectangle,
@@ -100,13 +104,19 @@ main {
 
 /*Main basis structuur*/
 
-.basis_structuur_top {
+.basis_structuur_top,
+.basis_structuur_top_2 {
 	background-color: #c6076f;
 	width: 100%;
 	height: 80px;
 }
 
-.basis_structuur_top h2 {
+.basis_structuur_top_2 {
+	margin-bottom: 20px;
+}
+
+.basis_structuur_top h2,
+.basis_structuur_top_2 h2 {
 	padding-top: 10px;
 	color: white;
 	display: flex;
@@ -166,7 +176,8 @@ main {
 
 .taal_en_kwal {
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
 }
 
 .wieiswie_Begeleiders_titel {
@@ -189,8 +200,16 @@ main {
 	justify-content: space-around;
 }
 
+.wieiswie_Begeleiders_info h4 {
+	font-size: 16px;
+}
+
 .wieiswie_Begeleiders_info p {
 	margin: 20px;
+}
+
+.personeelszaken_p {
+	margin: 10px 0 !important;
 }
 
 .wieiswie_Begeleiders_info div {
@@ -219,10 +238,54 @@ main {
 .wieiswie_secretariaat_info {
 	margin: 0 auto;
 	margin-top: 20px;
-	width: 450px;
+	width: 1000px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.wieiswie_secretariaat_info div {
+	width: 125px;
+}
+
+.wieiswie_secretariaat_info h4 {
+	font-size: 16px;
+}
+
+.wieiswie_secretariaat {
+	margin-top: 50px;
+}
+
+.wieiswie_vakgroep_titel {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.wieiswie_vakgroep_info {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.wieiswie_vakgroep_info div {
+	width: 125px;
+}
+
+.wieiswie_vakgroep_info h4 {
+	font-size: 16px;
+}
+
+.wieiswie_vakgroep {
+	margin-top: 50px;
 }
 
 .wieiswie_foto {
