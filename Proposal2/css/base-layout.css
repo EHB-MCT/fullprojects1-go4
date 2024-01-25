@@ -320,9 +320,6 @@ main {
 	flex-direction: row;
 }
 
-.factuur_links_blok {
-}
-
 /*Footer*/
 
 footer {
@@ -434,6 +431,28 @@ footer {
 	justify-content: flex-end;
 	align-items: end;
 }
+.theGo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.go {
+	font-size: 30px;
+	padding: 65px;
+	border-radius: 40px;
+	background-color: #c6076f;
+	color: white;
+	display: inline-block;
+}
+
+.go:hover {
+	font-size: 30px;
+	padding: 65px;
+	border-radius: 40px;
+	background-color: #f3d8e5;
+	color: black;
+}
 
 /*social media*/
 
@@ -513,4 +532,65 @@ h1 {
 address {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+/*regelement*/
+.leefregels {
+	margin: 30px;
+}
+
+.respect-welzijn {
+	margin: 30px;
+}
+
+.communicatie-opvolging {
+	margin: 30px;
+}
+
+.sancties {
+	margin: 30px;
+}
+
+.box {
+	margin: 100px;
+	width: 700px;
+	height: 225px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxtwee {
+	margin: 100px 700px;
+	width: 700px;
+	height: 250px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxdrie {
+	margin: 100px;
+	width: 700px;
+	height: 225px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxvier {
+	margin: 100px 700px;
+	width: 700px;
+	height: 250px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
 }
