@@ -248,3 +248,28 @@ footer {
 	justify-content: flex-end;
 	align-items: end;
 }
+
+/*social media*/
+
+.socialeMedia .basis_blok {
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0;
+	height: 40px;
+}
+
+.socialeMedia a {
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+.socialeMedia .basis_blok :hover {
+	color: lightgray;
+	margin-top: 50px;
+}
+
+.Reclame {
+	text-align: center;
+}
