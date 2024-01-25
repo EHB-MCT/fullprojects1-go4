@@ -550,3 +550,47 @@ address {
 .sancties {
 	margin: 30px;
 }
+
+.box {
+	margin: 100px;
+	width: 700px;
+	height: 225px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxtwee {
+	margin: 100px 700px;
+	width: 700px;
+	height: 250px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxdrie {
+	margin: 100px;
+	width: 700px;
+	height: 225px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxvier {
+	margin: 100px 700px;
+	width: 700px;
+	height: 250px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
