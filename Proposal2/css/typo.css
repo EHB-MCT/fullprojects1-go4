@@ -25,8 +25,14 @@ h4 {
 	font-weight: 700;
 	font-size: 21px;
 }
+h5 {
+	font-family: "Lexend", sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
 
-p {
+p,
+.graad-list2 {
 	font-family: "Lexend", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -61,6 +67,13 @@ li {
 	margin-left: -40px;
 }
 
-.graad-list {
+.graad-list,
+.graad-list2 {
+	list-style: inside;
+	margin-left: 20px;
+}
+.graad-list3 {
 	list-style: circle;
+	margin-left: 40px;
+	font-size: medium;
 }

@@ -6,7 +6,9 @@
 
 .grid-container-1,
 .grid-container-2,
-.grid-container-3 {
+.grid-container-3,
+.grid-container-4,
+.grid-container-5 {
 	display: grid;
 	gap: 5px;
 	background-color: #c67a9a;
@@ -26,6 +28,15 @@
 
 .grid-container-3 {
 	grid-template-columns: 400px 100px 100px 100px 100px 100px 100px 100px 100px;
+	grid-template-rows: 70px 50px 50px 50px 50px 50px;
+}
+.grid-container-4 {
+	grid-template-columns: 400px 150px 150px 150px 150px;
+	grid-template-rows: 70px 50px 50px 50px 50px 50px;
+}
+
+.grid-container-5 {
+	grid-template-columns: 400px 100px 100px 100px 100px 100px 100px 100px;
 	grid-template-rows: 70px 50px 50px 50px 50px 50px;
 }
 
@@ -52,6 +63,21 @@
 	font-size: 30px;
 	border-radius: 2px;
 }
+.grid-container-4 > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	border-radius: 2px;
+}
+
+.grid-container-5 > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	border-radius: 2px;
+}
 
 .grid-container-1 .item3 h2,
 .grid-container-2 .item3 h2 {
@@ -61,14 +87,18 @@
 
 .grid-container-1 h2,
 .grid-container-2 h2,
-.grid-container-3 h2 {
+.grid-container-3 h2,
+.grid-container-4 h2,
+.grid-container-5 h2 {
 	margin-top: 0px;
 	font-size: 30px;
 }
 
 .grid-container-1 h3,
 .grid-container-2 h3,
-.grid-container-3 h3 {
+.grid-container-3 h3,
+.grid-container-4 h3,
+.grid-container-5 h3 {
 	margin-top: -5px;
 	margin-bottom: -10px;
 	font-size: 15px;
@@ -76,22 +106,18 @@
 
 .grid-container-1 h4,
 .grid-container-2 h4,
-.grid-container-3 h4 {
+.grid-container-3 h4,
+.grid-container-4 h4,
+.grid-container-5 h4 {
 	margin-top: -5px;
 	margin-bottom: -10px;
 	font-size: 20px;
 	color: #c93170;
 }
 
-.graad-list {
-	margin-left: 0px;
-}
-
-.graad-list li {
-	margin-left: 100px;
-}
-
-.grid-container-3 .item1 {
+.grid-container-3 .item1,
+.grid-container-4 .item1,
+.grid-container-5 .item1 {
 	grid-row-start: 1;
 	grid-row-end: 3;
 }
@@ -100,15 +126,27 @@
 	grid-column-start: 2;
 	grid-column-end: 6;
 }
+.grid-container-4 .item2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.grid-container-5 .item2 {
+	grid-column-start: 2;
+	grid-column-end: 7;
+}
 
 .grid-container-3 .item3 {
 	grid-column-start: 6;
 	grid-column-end: 10;
 }
 
-/*
-.item1 {
-	grid-column-start: 1;
-	grid-column-end: 4;
+.grid-container-4 .item3 {
+	grid-column-start: 4;
+	grid-column-end: 6;
 }
-*/
+
+.grid-container-5 .item3 {
+	grid-column-start: 7;
+	grid-column-end: 9;
+}

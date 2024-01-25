@@ -1,7 +1,11 @@
 /* BASE LAYOUT FLEXBOX */
 main {
 	margin-bottom: 150px;
-	margin-top: 200px;
+	margin-top: 130px;
+}
+
+#main_home {
+	margin-top: 150px;
 }
 
 .rectangle,
@@ -100,37 +104,23 @@ main {
 
 /*Main basis structuur*/
 
-.basis_structuur_top {
+.basis_structuur_top,
+.basis_structuur_top_2 {
 	background-color: #c6076f;
 	width: 100%;
 	height: 80px;
 }
 
-.basis_structuur_top h2 {
+.basis_structuur_top_2 {
+	margin-bottom: 20px;
+}
+
+.basis_structuur_top h2,
+.basis_structuur_top_2 h2 {
 	padding-top: 10px;
 	color: white;
 	display: flex;
 	justify-content: center;
-}
-
-.basis_structuur_wrapper {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-.basis_blokken {
-	display: flex;
-	width: 100%;
-	margin: 50px auto;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.basis_blok {
-	background-color: #c6076f;
-	margin-bottom: 50px;
-	height: 100px;
-	width: 200px;
 }
 
 .basis_structuur_bottom {
@@ -139,6 +129,198 @@ main {
 	height: 80px;
 	margin-top: 50px;
 	transform: skew(0deg, -3deg);
+}
+
+/*wie is wie pagina*/
+
+.wieiswie_wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.wieiswie_wrapper h4 {
+	margin-bottom: 0;
+}
+
+.wieiswie_wrapper p {
+	margin-top: 10px;
+}
+
+.wieiswie_directie {
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.wieiswie_directie_titel {
+	margin: 0 auto;
+	width: 400px;
+	height: 100px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.wieiswie_directie_info {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.wieiswie_Begeleiders {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.wieiswie_Begeleiders_parent {
+	width: 50%;
+}
+
+.taal_en_kwal {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.wieiswie_Begeleiders_titel {
+	margin: 0 auto;
+	width: 400px;
+	height: 100px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.wieiswie_Begeleiders_info {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 450px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.wieiswie_Begeleiders_info h4 {
+	font-size: 16px;
+}
+
+.wieiswie_Begeleiders_info p {
+	margin: 20px;
+}
+
+.personeelszaken_p {
+	margin: 10px 0 !important;
+}
+
+.wieiswie_Begeleiders_info div {
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.wieiswie_Begeleiders_info .solo {
+	display: flex;
+	justify-content: center;
+}
+
+.wieiswie_secretariaat_titel {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.wieiswie_secretariaat_info {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.wieiswie_secretariaat_info div {
+	width: 125px;
+}
+
+.wieiswie_secretariaat_info h4 {
+	font-size: 16px;
+}
+
+.wieiswie_secretariaat {
+	margin-top: 50px;
+}
+
+.wieiswie_vakgroep_titel {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.wieiswie_vakgroep_info {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.wieiswie_vakgroep_info div {
+	width: 125px;
+}
+
+.wieiswie_vakgroep_info h4 {
+	font-size: 16px;
+}
+
+.wieiswie_vakgroep {
+	margin-top: 50px;
+}
+
+.wieiswie_foto {
+	width: 80px;
+}
+
+.wieiswie_foto_parent {
+	display: flex;
+	justify-content: center;
+}
+
+/*Maximumfactuur pagina*/
+
+.factuur_wrapper {
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.factuur_links {
+	display: flex;
+	flex-direction: row;
+}
+
+.factuur_links_blok {
 }
 
 /*Footer*/
@@ -167,7 +349,8 @@ footer {
 	justify-content: flex-start;
 	align-items: center;
 	margin: auto 0;
-	height: calc(155px - 70px);
+	height: calc(155px - 30px);
+	width: 300px;
 }
 
 .go_vlaams {
@@ -179,6 +362,8 @@ footer {
 .go_brussel img {
 	display: flex;
 	justify-content: center;
+	height: calc(155px - 30px);
+	width: 300px;
 }
 .go_brussel {
 	display: flex;
@@ -188,6 +373,7 @@ footer {
 
 .smartschool img {
 	height: calc(155px - 30px);
+	width: 300px;
 }
 
 .smartschool {
@@ -248,6 +434,7 @@ footer {
 	justify-content: flex-end;
 	align-items: end;
 }
+<<<<<<< HEAD
 .theGo {
 	display: flex;
 	flex-direction: row;
@@ -269,4 +456,85 @@ footer {
 	border-radius: 40px;
 	background-color: #f3d8e5;
 	color: black;
+=======
+
+/*social media*/
+
+.socialeMedia .basis_blok {
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0;
+	height: 40px;
+	margin-top: 100px;
+	border-radius: 30px;
+}
+
+.socialeMedia a {
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+.socialeMedia .basis_blok :hover {
+	color: lightgray;
+}
+
+.Reclame {
+	text-align: center;
+}
+
+#map-container {
+	flex: 1;
+	position: relative;
+	margin: 100px;
+	width: 500px;
+}
+
+#map {
+	width: 500px;
+	height: 100vh;
+	margin-right: 5px;
+}
+
+#info-container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	margin-right: 5px;
+}
+.contact .basis_blok {
+	padding: 15px;
+	flex: 2;
+	margin-bottom: 50px;
+	background: #c6076f;
+	color: #fff;
+	margin-top: 30px;
+	box-shadow: -10px -10px #ff8ecc;
+}
+.contact .basis_blok a {
+	color: #fff;
+}
+.main_map {
+	display: flex;
+	flex-direction: row;
+}
+
+.info {
+	margin-top: 10px;
+
+	flex: 1;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+address {
+	text-align: center;
+	margin-bottom: 10px;
+>>>>>>> 1324b661ecba6e97ab499801a3833b9eef222a89
 }
