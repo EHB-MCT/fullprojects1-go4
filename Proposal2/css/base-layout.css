@@ -434,7 +434,6 @@ footer {
 	justify-content: flex-end;
 	align-items: end;
 }
-<<<<<<< HEAD
 .theGo {
 	display: flex;
 	flex-direction: row;
@@ -456,7 +455,7 @@ footer {
 	border-radius: 40px;
 	background-color: #f3d8e5;
 	color: black;
-=======
+}
 
 /*social media*/
 
@@ -536,5 +535,4 @@ h1 {
 address {
 	text-align: center;
 	margin-bottom: 10px;
->>>>>>> 1324b661ecba6e97ab499801a3833b9eef222a89
 }
