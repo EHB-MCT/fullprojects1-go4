@@ -313,11 +313,33 @@ main {
 	width: 1200px;
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 }
 
 .factuur_links {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 50px 0;
+	margin-bottom: 40px;
+}
+
+.factuur_links_blok {
+	width: 400px;
+	display: flex;
+	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
+	color: white;
+	height: 100px;
+	margin: 30px 10px;
+	align-content: space-evenly;
+}
+
+.factuur_links_blok h3 {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
 /*Footer*/
@@ -346,21 +368,21 @@ footer {
 	justify-content: flex-start;
 	align-items: center;
 	margin: auto 0;
-	height: calc(155px - 30px);
+	height: calc(155px - 60px);
 	width: 300px;
 }
 
 .go_vlaams {
 	width: 33.33%;
 	justify-content: flex-start;
-	align-self: center;
+	align-self: top;
 }
 
 .go_brussel img {
 	display: flex;
 	justify-content: center;
-	height: calc(155px - 30px);
-	width: 300px;
+	height: calc(155px - 40px);
+	width: 260px;
 }
 .go_brussel {
 	display: flex;
@@ -432,6 +454,8 @@ footer {
 	align-items: end;
 }
 .theGo {
+	padding-top: 10%;
+	padding-bottom: 5%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -456,20 +480,32 @@ footer {
 
 /*social media*/
 
+.socialeMedia .basis_blokken {
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	margin: 50px auto;
+}
+
 .socialeMedia .basis_blok {
 	padding: 5px;
+	background-color: #c6076f;
 	text-align: center;
-	color: #fff;
+	color: white;
 	margin-bottom: 0;
 	height: 40px;
 	margin-top: 100px;
 	border-radius: 30px;
+	width: 300px;
+	margin: 150px 20px;
 }
 
 .socialeMedia a {
+	width: 100px;
 	text-align: center;
 	color: #fff;
 	font-size: 30px;
+	margin: auto 10px;
 }
 
 .socialeMedia .basis_blok :hover {
@@ -478,6 +514,8 @@ footer {
 
 .Reclame {
 	text-align: center;
+	width: 1200px;
+	margin: auto 10px;
 }
 
 #map-container {
@@ -519,6 +557,10 @@ footer {
 	flex-direction: row;
 }
 
+.info {
+	margin-top: 10px;
+	flex: 1;
+}
 h1 {
 	margin-top: 0;
 }
@@ -526,6 +568,28 @@ h1 {
 address {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+.PlanInfo .basis_blok {
+	background: #c6076f;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	margin-left: 50px;
+	box-shadow: -10px -10px #ff8ecc;
+}
+.PlanInfo {
+	margin-left: 100px;
+	width: 800px;
+}
+
+.PlanInfo h4 {
+	font-size: 50px;
+	color: white;
+}
+.info h5 {
+	font-size: 30px;
+	margin-bottom: 20px;
 }
 
 /*regelement*/
@@ -547,7 +611,7 @@ address {
 
 .box {
 	margin: 100px;
-	width: 700px;
+	width: 500px;
 	height: 225px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
@@ -559,7 +623,7 @@ address {
 .boxtwee {
 	margin: 100px 700px;
 	width: 700px;
-	height: 250px;
+	height: 275px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -581,10 +645,46 @@ address {
 .boxvier {
 	margin: 100px 700px;
 	width: 700px;
-	height: 250px;
+	height: 300px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
 	justify-content: center;
 	color: white;
+}
+
+/*info avnond*/
+
+.infoAvond {
+}
+.infoAvond .basis_blokken {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+}
+.infoAvond .Kaders {
+	width: 400px;
+	margin: 50px auto;
+}
+.infoAvond .basis_blok {
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 0px;
+	color: white;
+}
+.infoAvond .TextBlok {
+	padding-left: 10px;
+}
+.TextBlok h5 {
+	margin-bottom: 5px;
+}
+.TextBlok p {
+	margin-bottom: 50px;
+}
+
+.infoAvond .basis_structuur_bottom {
+	margin-top: 500px;
 }
