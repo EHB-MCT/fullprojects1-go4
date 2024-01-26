@@ -575,7 +575,7 @@ address {
 
 .box {
 	margin: 100px;
-	width: 700px;
+	width: 500px;
 	height: 225px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
@@ -587,7 +587,7 @@ address {
 .boxtwee {
 	margin: 100px 700px;
 	width: 700px;
-	height: 250px;
+	height: 275px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -609,7 +609,7 @@ address {
 .boxvier {
 	margin: 100px 700px;
 	width: 700px;
-	height: 250px;
+	height: 300px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
