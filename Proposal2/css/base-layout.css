@@ -313,11 +313,19 @@ main {
 	width: 1200px;
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 }
 
 .factuur_links {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 50px 0;
+	margin-bottom: 40px;
+}
+
+.factuur_links_blok {
 }
 
 /*Footer*/

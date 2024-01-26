@@ -68,3 +68,24 @@ p {
 		transform: translate(0px);
 	}
 }
+
+/*--------------*/
+
+#go-to-top-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #2a4fd2;
+	color: #fff;
+	opacity: 0.5;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#go-to-top-button:hover {
+	opacity: 1;
+}
+.hidden {
+	display: none;
+}
