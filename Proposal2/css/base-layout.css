@@ -477,7 +477,15 @@ footer {
 	background-color: #f3d8e5;
 	color: black;
 }
+
 /*social media*/
+
+.socialeMedia .basis_blokken {
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	margin: 50px auto;
+}
 
 .socialeMedia .basis_blok {
 	padding: 5px;
@@ -488,12 +496,16 @@ footer {
 	height: 40px;
 	margin-top: 100px;
 	border-radius: 30px;
+	width: 300px;
+	margin: 150px 20px;
 }
 
 .socialeMedia a {
+	width: 100px;
 	text-align: center;
 	color: #fff;
 	font-size: 30px;
+	margin: auto 10px;
 }
 
 .socialeMedia .basis_blok :hover {
@@ -502,6 +514,8 @@ footer {
 
 .Reclame {
 	text-align: center;
+	width: 1200px;
+	margin: auto 10px;
 }
 
 #map-container {
@@ -545,7 +559,6 @@ footer {
 
 .info {
 	margin-top: 10px;
-
 	flex: 1;
 }
 
