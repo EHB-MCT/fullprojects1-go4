@@ -557,7 +557,7 @@ footer {
 	flex-direction: row;
 }
 
-.info {
+.info2 {
 	margin-top: 10px;
 	flex: 1;
 }
@@ -590,6 +590,12 @@ address {
 .info h5 {
 	font-size: 30px;
 	margin-bottom: 20px;
+}
+
+.info2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 105px;
 }
 
 /*regelement*/
