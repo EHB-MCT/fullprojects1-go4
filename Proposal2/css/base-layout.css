@@ -368,21 +368,21 @@ footer {
 	justify-content: flex-start;
 	align-items: center;
 	margin: auto 0;
-	height: calc(155px - 30px);
+	height: calc(155px - 60px);
 	width: 300px;
 }
 
 .go_vlaams {
 	width: 33.33%;
 	justify-content: flex-start;
-	align-self: center;
+	align-self: top;
 }
 
 .go_brussel img {
 	display: flex;
 	justify-content: center;
-	height: calc(155px - 30px);
-	width: 300px;
+	height: calc(155px - 40px);
+	width: 260px;
 }
 .go_brussel {
 	display: flex;
@@ -454,6 +454,8 @@ footer {
 	align-items: end;
 }
 .theGo {
+	padding-top: 10%;
+	padding-bottom: 5%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -554,6 +556,33 @@ h1 {
 address {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+.PlanInfo .basis_blok {
+	background: #c6076f;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	margin-left: 50px;
+	box-shadow: -10px -10px #ff8ecc;
+}
+.PlanInfo {
+	margin-left: 100px;
+	width: 800px;
+}
+
+.PlanInfo h4 {
+	font-size: 50px;
+	color: white;
+}
+.info h5 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 105px;
 }
 
 /*regelement*/
