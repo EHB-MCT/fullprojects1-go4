@@ -73,19 +73,28 @@ p {
 
 #go-to-top-button {
 	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	background: #2a4fd2;
+	bottom: 40px;
+	right: 40px;
+	background: #e18cc8;
 	color: #fff;
 	opacity: 0.5;
-	padding: 10px 20px;
 	border: none;
-	border-radius: 5px;
+	border-radius: 100px;
 	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-image: url(/Proposal2/images/arrow.svg);
+	background-size: 50px;
+	background-position: center;
 }
+
 #go-to-top-button:hover {
 	opacity: 1;
 }
 .hidden {
+	display: none;
+}
+
+.scroll-animation {
 	display: none;
 }

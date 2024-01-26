@@ -19,7 +19,7 @@ main {
 	transform: skew(0deg, -3deg);
 }
 .rectangle2 {
-	height: 200px;
+	height: 150px;
 	top: 1400px;
 	z-index: 50;
 }
@@ -517,12 +517,6 @@ footer {
 .main_map {
 	display: flex;
 	flex-direction: row;
-}
-
-.info {
-	margin-top: 10px;
-
-	flex: 1;
 }
 
 h1 {
