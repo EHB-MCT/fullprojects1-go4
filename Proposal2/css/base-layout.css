@@ -313,11 +313,33 @@ main {
 	width: 1200px;
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 }
 
 .factuur_links {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 50px 0;
+	margin-bottom: 40px;
+}
+
+.factuur_links_blok {
+	width: 400px;
+	display: flex;
+	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
+	color: white;
+	height: 100px;
+	margin: 30px 10px;
+	align-content: space-evenly;
+}
+
+.factuur_links_blok h3 {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
 /*Footer*/
@@ -346,21 +368,21 @@ footer {
 	justify-content: flex-start;
 	align-items: center;
 	margin: auto 0;
-	height: calc(155px - 30px);
+	height: calc(155px - 60px);
 	width: 300px;
 }
 
 .go_vlaams {
 	width: 33.33%;
 	justify-content: flex-start;
-	align-self: center;
+	align-self: top;
 }
 
 .go_brussel img {
 	display: flex;
 	justify-content: center;
-	height: calc(155px - 30px);
-	width: 300px;
+	height: calc(155px - 40px);
+	width: 260px;
 }
 .go_brussel {
 	display: flex;
@@ -455,13 +477,13 @@ footer {
 	background-color: #f3d8e5;
 	color: black;
 }
-
 /*social media*/
 
 .socialeMedia .basis_blok {
 	padding: 5px;
+	background-color: #c6076f;
 	text-align: center;
-	color: #fff;
+	color: white;
 	margin-bottom: 0;
 	height: 40px;
 	margin-top: 100px;

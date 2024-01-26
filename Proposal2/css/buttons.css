@@ -14,5 +14,12 @@
 	color: black;
 }
 
+.btn-top {
+	position: fixed;
+	margin-top: 700px;
+	margin-left: calc(100vw - 10vw);
+	z-index: 1000;
+}
+
 /*.btn-secondary {
 }*/
