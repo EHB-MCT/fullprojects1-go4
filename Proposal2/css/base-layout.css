@@ -326,6 +326,20 @@ main {
 }
 
 .factuur_links_blok {
+	width: 400px;
+	display: flex;
+	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
+	color: white;
+	height: 100px;
+	margin: 30px 10px;
+	align-content: space-evenly;
+}
+
+.factuur_links_blok h3 {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
 /*Footer*/
