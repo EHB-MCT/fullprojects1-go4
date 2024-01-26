@@ -326,20 +326,6 @@ main {
 }
 
 .factuur_links_blok {
-	width: 400px;
-	display: flex;
-	background-color: #c6076f;
-	box-shadow: -10px -10px#ff8ecc;
-	color: white;
-	height: 100px;
-	margin: 30px 10px;
-	align-content: space-evenly;
-}
-
-.factuur_links_blok h3{
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
 }
 
 /*Footer*/
@@ -453,7 +439,6 @@ footer {
 	justify-content: flex-end;
 	align-items: end;
 }
-<<<<<<< HEAD
 .theGo {
 	display: flex;
 	flex-direction: row;
@@ -475,7 +460,7 @@ footer {
 	border-radius: 40px;
 	background-color: #f3d8e5;
 	color: black;
-=======
+}
 
 /*social media*/
 
@@ -555,5 +540,65 @@ h1 {
 address {
 	text-align: center;
 	margin-bottom: 10px;
->>>>>>> 1324b661ecba6e97ab499801a3833b9eef222a89
+}
+
+/*regelement*/
+.leefregels {
+	margin: 30px;
+}
+
+.respect-welzijn {
+	margin: 30px;
+}
+
+.communicatie-opvolging {
+	margin: 30px;
+}
+
+.sancties {
+	margin: 30px;
+}
+
+.box {
+	margin: 100px;
+	width: 700px;
+	height: 225px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxtwee {
+	margin: 100px 700px;
+	width: 700px;
+	height: 250px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxdrie {
+	margin: 100px;
+	width: 700px;
+	height: 225px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.boxvier {
+	margin: 100px 700px;
+	width: 700px;
+	height: 250px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	justify-content: center;
+	color: white;
 }
