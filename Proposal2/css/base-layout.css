@@ -325,8 +325,8 @@ main {
 	margin-bottom: 40px;
 }
 
-.factuur_links_blok {
-}
+/*.factuur_links_blok {
+}*/
 
 /*Footer*/
 
@@ -540,6 +540,33 @@ h1 {
 address {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+.PlanInfo .basis_blok {
+	background: #c6076f;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	margin-left: 50px;
+	box-shadow: -10px -10px #ff8ecc;
+}
+.PlanInfo {
+	margin-left: 100px;
+	width: 800px;
+}
+
+.PlanInfo h4 {
+	font-size: 50px;
+	color: white;
+}
+.info h5 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 105px;
 }
 
 /*regelement*/
