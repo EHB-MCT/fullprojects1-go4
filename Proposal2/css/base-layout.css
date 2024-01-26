@@ -658,3 +658,39 @@ address {
 	justify-content: center;
 	color: white;
 }
+
+/*info avnond*/
+
+.infoAvond {
+}
+.infoAvond .basis_blokken {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+}
+.infoAvond .Kaders {
+	width: 400px;
+	margin: 50px auto;
+}
+.infoAvond .basis_blok {
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 0px;
+	color: white;
+}
+.infoAvond .TextBlok {
+	padding-left: 10px;
+}
+.TextBlok h5 {
+	margin-bottom: 5px;
+}
+.TextBlok p {
+	margin-bottom: 50px;
+}
+
+.infoAvond .basis_structuur_bottom {
+	margin-top: 500px;
+}
