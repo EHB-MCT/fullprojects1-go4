@@ -475,13 +475,13 @@ footer {
 	background-color: #f3d8e5;
 	color: black;
 }
-
 /*social media*/
 
 .socialeMedia .basis_blok {
 	padding: 5px;
+	background-color: #c6076f;
 	text-align: center;
-	color: #fff;
+	color: white;
 	margin-bottom: 0;
 	height: 40px;
 	margin-top: 100px;
