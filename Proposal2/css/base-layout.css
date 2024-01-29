@@ -665,32 +665,38 @@ address {
 }
 .infoAvond .basis_blokken {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	align-content: center;
 }
 .infoAvond .Kaders {
-	width: 400px;
-	margin: 50px auto;
+	width: 600px;
+	margin: 100px;
+	flex-direction: row;
 }
 .infoAvond .basis_blok {
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
-	height: 50px;
+	height: 100px;
+	width: 400px;
 	padding-left: 10px;
-	padding-top: 0px;
+	padding-top: 5px;
 	color: white;
 }
 .infoAvond .TextBlok {
-	padding-left: 10px;
+	margin-top: 30px;
+	width: 500px;
 }
 .TextBlok h5 {
+	margin-top: 20px;
 	margin-bottom: 5px;
 }
 .TextBlok p {
 	margin-bottom: 50px;
+
+	width: 550px;
 }
 
 .infoAvond .basis_structuur_bottom {
 	margin-top: 500px;
+}
+.Kaders img {
+	margin-top: 50px;
 }
