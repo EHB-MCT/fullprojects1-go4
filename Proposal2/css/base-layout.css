@@ -317,6 +317,41 @@ main {
 	align-items: center;
 }
 
+/*infrastructuur pagina*/
+
+.infrastructuur_wrapper {
+	display: flex;
+	width: 1200px;
+	flex-direction: column;
+	margin: 50px auto;
+}
+
+.infrastructuur_blok {
+	display: flex;
+	flex-direction: row;
+	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
+	margin-bottom: 50px;
+}
+
+.infrastructuur_reverse {
+	flex-direction: row-reverse;
+}
+
+.infrastructuur_blok_img {
+	width: 40%;
+}
+.infrastructuur_blok_img img {
+	width: 400px;
+	margin: 20px;
+}
+
+.infrastructuur_blok_text {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
 /*Footer*/
 
 footer {
@@ -633,39 +668,111 @@ address {
 	justify-content: center;
 	color: white;
 }
+.boxvijf {
+	margin: auto;
+	width: 700px;
+	height: 300px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+}
+.fotovijf {
+	display: flex;
 
+	margin: auto;
+}
+.boxvijfwrapper {
+	flex-direction: column;
+	margin: auto;
+
+	display: flex;
+}
+.fotovijf img {
+	width: 200px;
+}
 /*info avnond*/
 
+/*
 .infoAvond {
 }
+*/
+
 .infoAvond .basis_blokken {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	align-content: center;
 }
 .infoAvond .Kaders {
-	width: 400px;
-	margin: 50px auto;
+	width: 600px;
+	margin: 100px;
+	flex-direction: row;
 }
 .infoAvond .basis_blok {
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
-	height: 50px;
+	height: 100px;
+	width: 400px;
 	padding-left: 10px;
-	padding-top: 0px;
+	padding-top: 5px;
 	color: white;
 }
 .infoAvond .TextBlok {
-	padding-left: 10px;
+	margin-top: 30px;
+	width: 500px;
 }
 .TextBlok h5 {
+	margin-top: 20px;
 	margin-bottom: 5px;
 }
 .TextBlok p {
 	margin-bottom: 50px;
+
+	width: 550px;
 }
 
+.Kaders img {
+	margin-top: 50px;
+}
 .infoAvond .basis_structuur_bottom {
 	margin-top: 500px;
+}
+
+/*wanneer*/
+
+.wanneer {
+	display: flex;
+}
+
+.wanneer .basis_blokken {
+	display: flex;
+	flex-direction: row;
+}
+
+.wanneer .Kaders {
+	margin: 70px 200px;
+	width: 600px;
+}
+.wanneer .basis_blok {
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	height: 100px;
+	margin-top: 50px;
+	width: 400px;
+	padding-left: 10px;
+	padding-top: 5px;
+	color: white;
+}
+
+/*
+.wanneer .TextBlok {
+}
+*/
+
+.wanneer .basis_structuur_bottom {
+	margin-top: 800px;
+}
+.wanneer .basis_blokken img {
+	width: 400px;
+	height: auto;
 }
