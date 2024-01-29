@@ -79,8 +79,7 @@
 	border-radius: 2px;
 }
 
-.grid-container-1 .item3 h2,
-.grid-container-2 .item3 h2 {
+.grid-container-1 .item3 h2 {
 	margin-top: -10px;
 	font-size: 25px;
 }
