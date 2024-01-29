@@ -19,7 +19,7 @@ main {
 	transform: skew(0deg, -3deg);
 }
 .rectangle2 {
-	height: 200px;
+	height: 150px;
 	top: 1400px;
 	z-index: 50;
 }
@@ -342,6 +342,41 @@ main {
 	align-items: center;
 }
 
+/*infrastructuur pagina*/
+
+.infrastructuur_wrapper {
+	display: flex;
+	width: 1200px;
+	flex-direction: column;
+	margin: 50px auto;
+}
+
+.infrastructuur_blok {
+	display: flex;
+	flex-direction: row;
+	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
+	margin-bottom: 50px;
+}
+
+.infrastructuur_reverse {
+	flex-direction: row-reverse;
+}
+
+.infrastructuur_blok_img {
+	width: 40%;
+}
+.infrastructuur_blok_img img {
+	width: 400px;
+	margin: 20px;
+}
+
+.infrastructuur_blok_text {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
 /*Footer*/
 
 footer {
@@ -557,11 +592,10 @@ footer {
 	flex-direction: row;
 }
 
-.info {
+.info2 {
 	margin-top: 10px;
 	flex: 1;
 }
-
 h1 {
 	margin-top: 0;
 }
@@ -592,7 +626,8 @@ address {
 	font-size: 30px;
 	margin-bottom: 20px;
 }
-.info {
+
+.info2 {
 	display: flex;
 	flex-direction: column;
 	margin-left: 105px;
@@ -657,4 +692,70 @@ address {
 	display: flex;
 	justify-content: center;
 	color: white;
+}
+.boxvijf {
+	margin: auto;
+	width: 700px;
+	height: 300px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+}
+.fotovijf {
+	display: flex;
+
+	margin: auto;
+}
+.boxvijfwrapper {
+	flex-direction: column;
+	margin: auto;
+
+	display: flex;
+}
+.fotovijf img {
+	width: 200px;
+}
+/*info avnond*/
+
+.infoAvond {
+}
+.infoAvond .basis_blokken {
+	display: flex;
+}
+.infoAvond .Kaders {
+	width: 600px;
+	margin: 100px;
+	flex-direction: row;
+}
+.infoAvond .basis_blok {
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	height: 100px;
+	width: 400px;
+	padding-left: 10px;
+	padding-top: 5px;
+	color: white;
+}
+.infoAvond .TextBlok {
+	margin-top: 30px;
+	width: 500px;
+}
+.TextBlok h5 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.TextBlok p {
+	margin-bottom: 50px;
+
+	width: 550px;
+}
+
+.infoAvond .basis_structuur_bottom {
+	margin-top: 500px;
+}
+.Kaders img {
+	margin-top: 50px;
 }
