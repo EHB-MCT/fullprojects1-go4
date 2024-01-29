@@ -658,7 +658,31 @@ address {
 	justify-content: center;
 	color: white;
 }
+.boxvijf {
+	margin: auto;
+	width: 700px;
+	height: 300px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+}
+.fotovijf {
+	display: flex;
 
+	margin: auto;
+}
+.boxvijfwrapper {
+	flex-direction: column;
+	margin: auto;
+
+	display: flex;
+}
+.fotovijf img {
+	width: 200px;
+}
 /*info avnond*/
 
 .infoAvond {
