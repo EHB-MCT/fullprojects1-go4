@@ -345,8 +345,38 @@ main {
 /*infrastructuur pagina*/
 
 .infrastructuur_wrapper {
+	display: flex;
+	width: 1200px;
+	flex-direction: column;
+	margin: 50px auto;
 }
 
+.infrastructuur_blok {
+	display: flex;
+	flex-direction: row;
+	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
+	margin-bottom: 50px;
+}
+
+.infrastructuur_reverse {
+	flex-direction: row-reverse;
+}
+
+.infrastructuur_blok_img {
+	width: 40%;
+}
+.infrastructuur_blok_img img {
+	width: 400px;
+	margin: 20px;
+}
+
+.infrastructuur_blok_text {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
 /*Footer*/
 
 footer {
