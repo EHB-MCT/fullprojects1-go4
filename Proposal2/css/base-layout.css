@@ -720,8 +720,11 @@ address {
 }
 /*info avnond*/
 
+/*
 .infoAvond {
 }
+*/
+
 .infoAvond .basis_blokken {
 	display: flex;
 }
