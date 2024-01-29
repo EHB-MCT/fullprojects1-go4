@@ -345,8 +345,38 @@ main {
 /*infrastructuur pagina*/
 
 .infrastructuur_wrapper {
+	display: flex;
+	width: 1200px;
+	flex-direction: column;
+	margin: 50px auto;
 }
 
+.infrastructuur_blok {
+	display: flex;
+	flex-direction: row;
+	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
+	margin-bottom: 50px;
+}
+
+.infrastructuur_reverse {
+	flex-direction: row-reverse;
+}
+
+.infrastructuur_blok_img {
+	width: 40%;
+}
+.infrastructuur_blok_img img {
+	width: 400px;
+	margin: 20px;
+}
+
+.infrastructuur_blok_text {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
 /*Footer*/
 
 footer {
@@ -663,7 +693,31 @@ address {
 	justify-content: center;
 	color: white;
 }
+.boxvijf {
+	margin: auto;
+	width: 700px;
+	height: 300px;
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+}
+.fotovijf {
+	display: flex;
 
+	margin: auto;
+}
+.boxvijfwrapper {
+	flex-direction: column;
+	margin: auto;
+
+	display: flex;
+}
+.fotovijf img {
+	width: 200px;
+}
 /*info avnond*/
 
 .infoAvond {
