@@ -15,7 +15,11 @@
 	}
 
 	.wrapper,
-	.wieiswie_wrapper {
+	.wieiswie_wrapper,
+	.basis_structuur_wrapper,
+	.factuur_wrapper,
+	.infrastructuur_wrapper,
+	.socialeMedia {
 		width: 768px;
 		margin: 0 auto;
 	}
@@ -164,5 +168,91 @@
 
 	.GO1 {
 		margin-top: 30px;
+	}
+
+	/* regelement */
+
+	.box,
+	.boxtwee,
+	.boxdrie,
+	.boxvier,
+	.boxvijf {
+		margin: 0px;
+		margin-top: 50px;
+		margin-right: 0px;
+	}
+
+	.boxtwee {
+		width: 600px;
+	}
+
+	.boxdrie {
+		width: 630px;
+	}
+
+	.boxvier {
+		width: 660px;
+	}
+
+	.boxvijf {
+		margin-left: -70px;
+	}
+
+	.basis_structuur_wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		margin-left: 50px;
+	}
+
+	/* factuur */
+
+	.factuur_wrapper p {
+		margin-left: 50px;
+	}
+
+	/* infrastructuur */
+
+	.infrastructuur_blok {
+		box-shadow: none;
+		background-color: #c6076f;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.infrastructuur_blok_img {
+		width: 100%;
+		margin: 0px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.basis_structuur_top {
+		margin-bottom: 50px;
+	}
+
+	/* infrastructuur */
+
+	.basis_structuur_wrapper .basis_blokken {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.socialeMedia .basis_blok {
+		margin: 0px 0px;
+	}
+
+	/* sociaal contact */
+
+	.PlanInfo {
+		margin: 0px;
+	}
+
+	.info2 {
+		width: 500px;
 	}
 }

@@ -402,6 +402,10 @@ main {
 	margin-bottom: 50px;
 }
 
+.infrastructuur_blok p {
+	color: #fff;
+}
+
 .infrastructuur_reverse {
 	flex-direction: row-reverse;
 }
