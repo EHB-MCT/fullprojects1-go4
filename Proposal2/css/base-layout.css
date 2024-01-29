@@ -699,9 +699,48 @@ address {
 	width: 550px;
 }
 
+.Kaders img {
+	margin-top: 50px;
+}
 .infoAvond .basis_structuur_bottom {
 	margin-top: 500px;
 }
-.Kaders img {
+
+/*wanneer*/
+
+.wanneer {
+	display: flex;
+}
+
+.wanneer .basis_blokken {
+	display: flex;
+	flex-direction: row;
+}
+
+.wanneer .Kaders {
+	margin: 70px 200px;
+	width: 600px;
+}
+.wanneer .basis_blok {
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	height: 100px;
 	margin-top: 50px;
+	width: 400px;
+	padding-left: 10px;
+	padding-top: 5px;
+	color: white;
+}
+
+/*
+.wanneer .TextBlok {
+}
+*/
+
+.wanneer .basis_structuur_bottom {
+	margin-top: 800px;
+}
+.wanneer .basis_blokken img {
+	width: 400px;
+	height: auto;
 }
