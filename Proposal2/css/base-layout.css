@@ -19,7 +19,7 @@ main {
 	transform: skew(0deg, -3deg);
 }
 .rectangle2 {
-	height: 200px;
+	height: 150px;
 	top: 1400px;
 	z-index: 50;
 }
@@ -459,6 +459,8 @@ footer {
 	align-items: end;
 }
 .theGo {
+	padding-top: 10%;
+	padding-bottom: 5%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -480,7 +482,15 @@ footer {
 	background-color: #f3d8e5;
 	color: black;
 }
+
 /*social media*/
+
+.socialeMedia .basis_blokken {
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	margin: 50px auto;
+}
 
 .socialeMedia .basis_blok {
 	padding: 5px;
@@ -491,12 +501,16 @@ footer {
 	height: 40px;
 	margin-top: 100px;
 	border-radius: 30px;
+	width: 300px;
+	margin: 150px 20px;
 }
 
 .socialeMedia a {
+	width: 100px;
 	text-align: center;
 	color: #fff;
 	font-size: 30px;
+	margin: auto 10px;
 }
 
 .socialeMedia .basis_blok :hover {
@@ -505,6 +519,8 @@ footer {
 
 .Reclame {
 	text-align: center;
+	width: 1200px;
+	margin: auto 10px;
 }
 
 #map-container {
@@ -546,12 +562,10 @@ footer {
 	flex-direction: row;
 }
 
-.info {
+.info2 {
 	margin-top: 10px;
-
 	flex: 1;
 }
-
 h1 {
 	margin-top: 0;
 }
@@ -559,6 +573,34 @@ h1 {
 address {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+.PlanInfo .basis_blok {
+	background: #c6076f;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	margin-left: 50px;
+	box-shadow: -10px -10px #ff8ecc;
+}
+.PlanInfo {
+	margin-left: 100px;
+	width: 800px;
+}
+
+.PlanInfo h4 {
+	font-size: 50px;
+	color: white;
+}
+.info h5 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.info2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 105px;
 }
 
 /*regelement*/
@@ -580,7 +622,7 @@ address {
 
 .box {
 	margin: 100px;
-	width: 700px;
+	width: 500px;
 	height: 225px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
@@ -592,7 +634,7 @@ address {
 .boxtwee {
 	margin: 100px 700px;
 	width: 700px;
-	height: 250px;
+	height: 275px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -614,10 +656,46 @@ address {
 .boxvier {
 	margin: 100px 700px;
 	width: 700px;
-	height: 250px;
+	height: 300px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
 	justify-content: center;
 	color: white;
+}
+
+/*info avnond*/
+
+.infoAvond {
+}
+.infoAvond .basis_blokken {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+}
+.infoAvond .Kaders {
+	width: 400px;
+	margin: 50px auto;
+}
+.infoAvond .basis_blok {
+	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
+	height: 50px;
+	padding-left: 10px;
+	padding-top: 0px;
+	color: white;
+}
+.infoAvond .TextBlok {
+	padding-left: 10px;
+}
+.TextBlok h5 {
+	margin-bottom: 5px;
+}
+.TextBlok p {
+	margin-bottom: 50px;
+}
+
+.infoAvond .basis_structuur_bottom {
+	margin-top: 500px;
 }

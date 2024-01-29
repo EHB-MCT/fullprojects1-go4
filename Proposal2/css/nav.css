@@ -12,7 +12,7 @@
 }
 .logo img {
 	width: auto;
-	height: 200px;
+	height: 190px;
 }
 
 nav {
@@ -45,6 +45,7 @@ nav {
 	margin-top: -14px;
 	z-index: 51;
 }
+
 .navigation {
 	display: flex;
 	flex-direction: row;
