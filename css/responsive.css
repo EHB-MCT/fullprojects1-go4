@@ -5,6 +5,15 @@
 	}
 }
 
+@media screen and (max-width: 640px) {
+	.basis_structuur_top_2 {
+		width: 640px;
+	}
+	.basis_structuur_top_2 h2 {
+		margin: 0 auto;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	nav {
 		margin-top: -160px;
@@ -136,6 +145,11 @@
 
 	/* studieaanbod */
 
+	.wrapper p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
 	.grid {
 		display: grid;
 		justify-content: center;
@@ -154,19 +168,17 @@
 	}
 
 	.grid-container-3 {
-		grid-template-columns: 200px 60px 60px 60px 60px 60px 60px 60px 60px;
+		grid-template-columns: 200px 45px 45px 45px 45px 45px 45px 45px 45px;
+		grid-template-rows: 90px 50px 50px 50px 50px 50px;
 	}
 
 	.grid-container-4 {
-		grid-template-columns: 200px 100px 100px 100px 100px;
+		grid-template-columns: 180px 100px 100px 100px 100px;
 	}
 
 	.grid-container-5 {
-		grid-template-columns: 200px 60px 60px 60px 60px 60px 100px 100px;
-	}
-
-	.basis_structuur_top_2 {
-		width: 100vw;
+		grid-template-columns: 180px 55px 55px 55px 55px 55px 55px 55px;
+		grid-template-rows: 130px 50px 50px 50px 50px 50px;
 	}
 
 	/* the go*/
