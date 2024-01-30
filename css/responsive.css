@@ -1,0 +1,317 @@
+@media screen {
+	.wrapper {
+		width: 1200px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.basis_structuur_top_2 {
+		width: 640px;
+	}
+	.basis_structuur_top_2 h2 {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	nav {
+		margin-top: -160px;
+	}
+
+	.navigation {
+		margin-right: 0px;
+	}
+
+	.wrapper,
+	.wieiswie_wrapper,
+	.basis_structuur_wrapper,
+	.factuur_wrapper,
+	.infrastructuur_wrapper,
+	.socialeMedia {
+		width: 640px;
+		margin: 0 auto;
+	}
+
+	.triangel,
+	.rectangle,
+	.go_vormen {
+		display: none;
+	}
+
+	.rectangle2 {
+		height: 100px;
+		top: 930px;
+		width: 100%;
+	}
+
+	.headerFull {
+		background-color: #c6076f;
+		height: 300px;
+	}
+
+	.headerTxt h1 {
+		font-size: 50px;
+		margin-left: -20px;
+		margin-top: 40px;
+	}
+
+	.headerImg img {
+		height: 200px;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+
+	.mainImg {
+		height: 576px;
+		background-size: auto;
+	}
+
+	.wrapper_footer {
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.wrapper_footer img {
+		height: 120px;
+	}
+
+	.footer_rij_één img {
+		width: 100%;
+		height: 80%;
+	}
+
+	.footer_rij_twee {
+		padding-left: 20px;
+	}
+
+	.footer_contact img {
+		height: 30px;
+	}
+
+	.info {
+		margin-top: 0px;
+	}
+
+	/*Footer*/
+
+	.wrapper_footer {
+		width: 768px;
+	}
+
+	.footer_rij_één {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0 auto;
+	}
+
+	.go_brussel {
+		align-self: center;
+		margin: 50px 0;
+	}
+
+	.go_vlaams {
+		align-self: center;
+	}
+
+	.social_media_iconen {
+		display: none;
+		flex-direction: column;
+	}
+
+	.footer_socialmedia_tekst {
+		display: contents;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	/* wie is wie*/
+
+	.drop-in-2 {
+		margin-top: 160px;
+	}
+
+	.wieiswie_secretariaat_titel {
+		width: 80%;
+	}
+
+	.wieiswie_secretariaat {
+		justify-content: center;
+		width: 90%;
+	}
+
+	.wieiswie_secretariaat_info {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		flex-flow: row wrap;
+	}
+
+	.wieiswie_foto_parent {
+		height: 100px;
+		width: 100px;
+	}
+
+	.mobile_wie {
+		margin-left: 20px;
+	}
+
+	.wieiswie_vakgroep_titel {
+		width: 70%;
+	}
+
+	.wieiswie_vakgroep_info {
+		width: 90%;
+	}
+
+	.wieiswie_persoon {
+		margin-left: 20px;
+	}
+
+	.mobile_b1 {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* studieaanbod */
+
+	.wrapper p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.grid {
+		display: grid;
+		justify-content: center;
+	}
+
+	.grid-container-1 {
+		margin-right: 50px;
+		margin-left: 50px;
+		margin-bottom: 20px;
+	}
+
+	.grid-container-2 {
+		grid-template-columns: 280px 100px 100px 100px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.grid-container-3 {
+		grid-template-columns: 200px 45px 45px 45px 45px 45px 45px 45px 45px;
+		grid-template-rows: 90px 50px 50px 50px 50px 50px;
+	}
+
+	.grid-container-4 {
+		grid-template-columns: 180px 100px 100px 100px 100px;
+	}
+
+	.grid-container-5 {
+		grid-template-columns: 180px 55px 55px 55px 55px 55px 55px 55px;
+		grid-template-rows: 130px 50px 50px 50px 50px 50px;
+	}
+
+	/* the go*/
+
+	.theGo {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.GO1 {
+		margin-top: 30px;
+	}
+
+	/* regelement */
+
+	.box,
+	.boxtwee,
+	.boxdrie,
+	.boxvier,
+	.boxvijf {
+		margin: 0px;
+		margin-top: 50px;
+		margin-right: 0px;
+	}
+
+	.boxtwee {
+		width: 600px;
+	}
+
+	.boxdrie {
+		width: 630px;
+	}
+
+	.boxvier {
+		width: 660px;
+	}
+
+	.boxvijf {
+		margin-left: -70px;
+	}
+
+	.basis_structuur_wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		margin-left: 50px;
+	}
+
+	/* factuur */
+
+	.factuur_links {
+		margin: 0 auto;
+	}
+
+	.factuur_wrapper p {
+		margin-left: 50px;
+	}
+
+	/* infrastructuur */
+
+	.infrastructuur_blok {
+		box-shadow: none;
+		background-color: #c6076f;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.infrastructuur_blok_img {
+		width: 100%;
+		margin: 0px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.basis_structuur_top {
+		margin-bottom: 50px;
+	}
+
+	/* infrastructuur */
+
+	.basis_structuur_wrapper .basis_blokken {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.socialeMedia .basis_blok {
+		margin: 0px 0px;
+	}
+
+	/* sociaal contact */
+
+	.PlanInfo {
+		margin: 0px;
+	}
+
+	.info2 {
+		width: 500px;
+	}
+}
