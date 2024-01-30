@@ -562,17 +562,6 @@ footer {
 	padding: 20px;
 }
 
-.footer_rij_één {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.footer_rij_één img {
-	width: 300px;
-	display: flex;
-}
-
 .go_vlaams img {
 	display: flex;
 	justify-content: flex-start;

@@ -31,7 +31,8 @@
 	.basis_structuur_wrapper,
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
-	.socialeMedia {
+	.socialeMedia,
+	.wrapper_footer {
 		width: 640px;
 		margin: 0 auto;
 	}
@@ -81,13 +82,18 @@
 		height: 120px;
 	}
 
+	.footer_rij_één {
+		width: 640px;
+	}
+
 	.footer_rij_één img {
 		width: 100%;
 		height: 80%;
 	}
 
 	.footer_rij_twee {
-		padding-left: 20px;
+		padding-left: 10px;
+		width: 600px;
 	}
 
 	.footer_contact img {
@@ -100,14 +106,11 @@
 
 	/*Footer*/
 
-	.wrapper_footer {
-		width: 768px;
-	}
-
 	.footer_rij_één {
 		display: flex;
 		flex-direction: column-reverse;
 		margin: 0 auto;
+		margin-left: -30px;
 	}
 
 	.go_brussel {
