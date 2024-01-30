@@ -76,6 +76,8 @@
 		padding-right: 20px;
 		width: 85%;
 		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.wrapper_footer img {
@@ -84,6 +86,9 @@
 
 	.footer_rij_één {
 		width: 640px;
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0 auto;
 	}
 
 	.footer_rij_één img {
@@ -92,8 +97,8 @@
 	}
 
 	.footer_rij_twee {
-		padding-left: 10px;
 		width: 600px;
+		align-self: center;
 	}
 
 	.footer_contact img {
@@ -105,13 +110,6 @@
 	}
 
 	/*Footer*/
-
-	.footer_rij_één {
-		display: flex;
-		flex-direction: column-reverse;
-		margin: 0 auto;
-		margin-left: -30px;
-	}
 
 	.go_brussel {
 		align-self: center;
@@ -131,7 +129,7 @@
 		display: contents;
 		display: flex;
 		flex-direction: column;
-		text-align: center;
+		text-align: end;
 	}
 
 	/* wie is wie*/
