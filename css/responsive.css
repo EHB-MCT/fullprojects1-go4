@@ -20,7 +20,7 @@
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
 	.socialeMedia {
-		width: 768px;
+		width: 640px;
 		margin: 0 auto;
 	}
 
@@ -206,6 +206,10 @@
 	}
 
 	/* factuur */
+
+	.factuur_links {
+		margin: 0 auto;
+	}
 
 	.factuur_wrapper p {
 		margin-left: 50px;
