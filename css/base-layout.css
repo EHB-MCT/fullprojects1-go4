@@ -1,12 +1,4 @@
 /* BASE LAYOUT FLEXBOX */
-main {
-	margin-bottom: 150px;
-	margin-top: 130px;
-}
-
-#main_home {
-	margin-top: 150px;
-}
 
 .rectangle,
 .rectangle2 {
@@ -671,7 +663,7 @@ footer {
 	margin-bottom: 20px;
 	height: 40px;
 	border-radius: 30px;
-	width: 100px;
+	width: 80%;
 }
 
 .socialeMedia a {
@@ -714,7 +706,6 @@ footer {
 		width: calc(50% - 20px);
 	}
 }
-
 /* CONTACT */
 
 #map-container {
@@ -795,52 +786,6 @@ address {
 	display: flex;
 	flex-direction: column;
 	margin-left: 105px;
-}
-
-#map-container {
-	flex: 1;
-	position: relative;
-	margin: 100px;
-	width: 500px;
-}
-
-/* Voeg mediaquery toe voor schermformaten onder 460 pixels */
-
-@media (max-width: 460px) {
-	#map-container {
-		width: auto;
-		margin: 10px; /* Aanpassen van marges naar wens */
-	}
-
-	#map {
-		width: 100%;
-		height: auto;
-		margin-right: 0;
-	}
-
-	#info-container {
-		margin-right: 0;
-	}
-
-	.main_map {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.contact .basis_blok {
-		width: 100%; /* Volledige breedte bij kleinere schermen */
-		margin: 10px 0; /* Aanpassen van marges naar wens */
-	}
-
-	.PlanInfo {
-		margin-left: 10px; /* Aanpassen van marges naar wens */
-		width: auto;
-	}
-
-	.PlanInfo .basis_blok {
-		width: 100%; /* Volledige breedte bij kleinere schermen */
-		margin-left: 0;
-	}
 }
 
 /*regelement*/

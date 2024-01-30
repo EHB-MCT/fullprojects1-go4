@@ -3,12 +3,16 @@
 		width: 1200px;
 		margin: 0 auto;
 	}
+	.hamburg {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 640px) {
 	.basis_structuur_top_2,
 	.basis_structuur_top,
-	.basis_structuur_bottom {
+	.basis_structuur_bottom,
+	.drop-in {
 		width: 640px;
 	}
 	.basis_structuur_top_2 h2,
@@ -18,12 +22,16 @@
 }
 
 @media screen and (max-width: 1200px) {
-	nav {
-		margin-top: -160px;
-	}
-
 	.navigation {
 		margin-right: 0px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	header {
+		margin-bottom: -150px;
 	}
 
 	.wrapper,
