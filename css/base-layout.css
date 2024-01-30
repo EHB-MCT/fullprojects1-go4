@@ -1069,6 +1069,42 @@ address {
 	width: 400px;
 	height: auto;
 }
+@media (max-width: 460px) {
+	.wanneer {
+		flex-direction: column;
+	}
+
+	.wanneer .Kaders {
+		margin: 20px;
+		margin-left: -350px;
+		width: 300px;
+	}
+
+	.wanneer .basis_blokken {
+		flex-direction: column;
+	}
+
+	.wanneer .basis_blok {
+		width: auto;
+		margin: 10px 0;
+	}
+
+	.wanneer .basis_blokken img {
+		width: 300px;
+		height: auto;
+		margin-left: -300px;
+	}
+
+	.wanneer .basis_structuur_bottom {
+		margin-top: 20px;
+	}
+	.wanneer .TextBlok {
+		max-width: 300px;
+	}
+	.wanneer .TextBlok p {
+		max-width: 400px;
+	}
+}
 
 /*visie*/
 
