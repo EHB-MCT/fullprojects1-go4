@@ -166,6 +166,14 @@ main {
 	display: none;
 }
 
+.menu li a {
+	color: #fff;
+}
+
+.menu li {
+	align-items: center;
+}
+
 .menu-button,
 .menu-button::before,
 .menu-button::after {
