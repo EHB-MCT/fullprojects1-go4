@@ -203,7 +203,11 @@ main {
 }
 
 .logoMobile {
-	margin-left: -150px;
+	margin-left: -140px;
+}
+
+.logoMobile .logo img {
+	height: 170px;
 }
 
 @media (max-width: 1200px) {

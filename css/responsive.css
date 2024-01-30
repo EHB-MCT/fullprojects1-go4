@@ -12,7 +12,8 @@
 	.basis_structuur_top_2,
 	.basis_structuur_top,
 	.basis_structuur_bottom,
-	.drop-in {
+	.drop-in,
+	.menu {
 		width: 640px;
 	}
 	.basis_structuur_top_2 h2,
