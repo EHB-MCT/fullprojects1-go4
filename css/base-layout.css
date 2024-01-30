@@ -554,6 +554,17 @@ footer {
 	padding: 20px;
 }
 
+.footer_rij_één {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer_rij_één img {
+	width: 300px;
+	display: flex;
+}
+
 .go_vlaams img {
 	display: flex;
 	justify-content: flex-start;
@@ -788,6 +799,53 @@ address {
 	margin-left: 105px;
 }
 
+<<<<<<< HEAD
+=======
+#map-container {
+	flex: 1;
+	position: relative;
+	margin: 100px;
+	width: 500px;
+}
+
+@media (max-width: 460px) {
+	#map-container {
+		width: auto;
+		margin: 10px;
+	}
+
+	#map {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+	}
+
+	#info-container {
+		margin-right: 0;
+	}
+
+	.main_map {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact .basis_blok {
+		width: 100%; /* Volledige breedte bij kleinere schermen */
+		margin: 10px 0; /* Aanpassen van marges naar wens */
+	}
+
+	.PlanInfo {
+		margin-left: 10px; /* Aanpassen van marges naar wens */
+		width: auto;
+	}
+
+	.PlanInfo .basis_blok {
+		width: 100%; /* Volledige breedte bij kleinere schermen */
+		margin-left: 0;
+	}
+}
+
+>>>>>>> a95668936ed81a40e43625f8cdebc06b83e01d6e
 /*regelement*/
 
 .leefregels {
@@ -920,6 +978,53 @@ address {
 	margin-top: 500px;
 }
 
+@media (max-width: 460px) {
+	.infoAvond {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.infoAvond .basis_structuur_wrapper {
+		width: 90%;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.infoAvond .basis_blokken {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.infoAvond .Kaders {
+		width: 100%;
+		max-width: 400px;
+		margin: 10px 0;
+	}
+
+	.infoAvond .basis_blok {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.infoAvond .TextBlok {
+		width: 100%;
+		max-width: 300px;
+	}
+	.infoAvond .TextBlok p {
+		max-width: 400px;
+	}
+	.infoAvond .Kaders img {
+		width: 100%;
+		max-width: 300px;
+		margin-top: 20px;
+	}
+
+	.infoAvond .basis_structuur_bottom {
+		margin-top: 20px;
+	}
+}
+
 /*wanneer*/
 
 .wanneer {
@@ -958,11 +1063,49 @@ address {
 	width: 400px;
 	height: auto;
 }
+@media (max-width: 460px) {
+	.wanneer {
+		flex-direction: column;
+	}
+
+	.wanneer .Kaders {
+		margin: 20px;
+		margin-left: -350px;
+		width: 300px;
+	}
+
+	.wanneer .basis_blokken {
+		flex-direction: column;
+	}
+
+	.wanneer .basis_blok {
+		width: auto;
+		margin: 10px 0;
+	}
+
+	.wanneer .basis_blokken img {
+		width: 300px;
+		height: auto;
+		margin-left: -300px;
+	}
+
+	.wanneer .basis_structuur_bottom {
+		margin-top: 20px;
+	}
+	.wanneer .TextBlok {
+		max-width: 300px;
+	}
+	.wanneer .TextBlok p {
+		max-width: 400px;
+	}
+}
 
 /*visie*/
 
 .visie_blok_text {
 	color: white;
+	text-align: start;
+	padding: 40px;
 }
 .visie_blok {
 	display: flex;
@@ -970,10 +1113,4 @@ address {
 	background-color: #c6076f;
 	box-shadow: -10px -10px#ff8ecc;
 	margin-bottom: 50px;
-}
-
-.visie_blok_text {
-	/*display: flex;*/
-	text-align: center;
-	padding: 40px;
 }
