@@ -270,6 +270,7 @@
 
 	.factuur_links {
 		margin: 0 auto;
+		flex-direction: column;
 	}
 
 	.factuur_wrapper p {
@@ -279,6 +280,8 @@
 	/* infrastructuur */
 
 	.infrastructuur_blok {
+		display: flex;
+		flex-direction: column;
 		box-shadow: none;
 		background-color: #c6076f;
 		text-align: center;
