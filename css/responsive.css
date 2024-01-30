@@ -147,6 +147,12 @@
 		margin-bottom: 20px;
 	}
 
+	.grid-container-2 {
+		grid-template-columns: 280px 100px 100px 100px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
 	.grid-container-3 {
 		grid-template-columns: 200px 60px 60px 60px 60px 60px 60px 60px 60px;
 	}
@@ -157,6 +163,10 @@
 
 	.grid-container-5 {
 		grid-template-columns: 200px 60px 60px 60px 60px 60px 100px 100px;
+	}
+
+	.basis_structuur_top_2 {
+		width: 100vw;
 	}
 
 	/* the go*/
