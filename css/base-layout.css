@@ -1110,6 +1110,8 @@ address {
 
 .visie_blok_text {
 	color: white;
+	text-align: start;
+	padding: 40px;
 }
 .visie_blok {
 	display: flex;
@@ -1117,10 +1119,4 @@ address {
 	background-color: #c6076f;
 	box-shadow: -10px -10px#ff8ecc;
 	margin-bottom: 50px;
-}
-
-.visie_blok_text {
-	/*display: flex;*/
-	text-align: center;
-	padding: 40px;
 }
