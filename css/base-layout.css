@@ -986,6 +986,53 @@ address {
 	margin-top: 500px;
 }
 
+@media only screen and (min-width: 460px) {
+	.infoAvond {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.infoAvond .basis_structuur_wrapper {
+		width: 90%;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.infoAvond .basis_blokken {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.infoAvond .Kaders {
+		width: 100%;
+		max-width: 400px;
+		margin: 10px 0;
+	}
+
+	.infoAvond .basis_blok {
+		width: 100%;
+		max-width: 300px; /* Adjust the max-width as needed */
+	}
+
+	.infoAvond .TextBlok {
+		width: 100%;
+		max-width: 300px;
+	}
+	.infoAvond .TextBlok p {
+		max-width: 400px;
+	}
+	.infoAvond .Kaders img {
+		width: 100%;
+		max-width: 300px;
+		margin-top: 20px;
+	}
+
+	.infoAvond .basis_structuur_bottom {
+		margin-top: 20px;
+	}
+}
+
 /*wanneer*/
 
 .wanneer {
