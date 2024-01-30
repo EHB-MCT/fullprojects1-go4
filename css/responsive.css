@@ -86,6 +86,39 @@
 		margin-top: 0px;
 	}
 
+	/*Footer*/
+
+	.wrapper_footer {
+		width: 768px;
+	}
+
+	.footer_rij_één {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0 auto;
+	}
+
+	.go_brussel {
+		align-self: center;
+		margin: 50px 0;
+	}
+
+	.go_vlaams {
+		align-self: center;
+	}
+
+	.social_media_iconen {
+		display: none;
+		flex-direction: column;
+	}
+
+	.footer_socialmedia_tekst {
+		display: contents;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
 	/* wie is wie*/
 
 	.drop-in-2 {
