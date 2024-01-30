@@ -5,6 +5,15 @@
 	}
 }
 
+@media screen and (max-width: 640px) {
+	.basis_structuur_top_2 {
+		width: 640px;
+	}
+	.basis_structuur_top_2 h2 {
+		margin: 0 auto;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	nav {
 		margin-top: -160px;
@@ -20,7 +29,7 @@
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
 	.socialeMedia {
-		width: 768px;
+		width: 640px;
 		margin: 0 auto;
 	}
 
@@ -169,6 +178,11 @@
 
 	/* studieaanbod */
 
+	.wrapper p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
 	.grid {
 		display: grid;
 		justify-content: center;
@@ -180,16 +194,24 @@
 		margin-bottom: 20px;
 	}
 
+	.grid-container-2 {
+		grid-template-columns: 280px 100px 100px 100px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
 	.grid-container-3 {
-		grid-template-columns: 200px 60px 60px 60px 60px 60px 60px 60px 60px;
+		grid-template-columns: 200px 45px 45px 45px 45px 45px 45px 45px 45px;
+		grid-template-rows: 90px 50px 50px 50px 50px 50px;
 	}
 
 	.grid-container-4 {
-		grid-template-columns: 200px 100px 100px 100px 100px;
+		grid-template-columns: 180px 100px 100px 100px 100px;
 	}
 
 	.grid-container-5 {
-		grid-template-columns: 200px 60px 60px 60px 60px 60px 100px 100px;
+		grid-template-columns: 180px 55px 55px 55px 55px 55px 55px 55px;
+		grid-template-rows: 130px 50px 50px 50px 50px 50px;
 	}
 
 	/* the go*/
@@ -239,6 +261,10 @@
 	}
 
 	/* factuur */
+
+	.factuur_links {
+		margin: 0 auto;
+	}
 
 	.factuur_wrapper p {
 		margin-left: 50px;

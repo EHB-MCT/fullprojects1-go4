@@ -175,6 +175,142 @@ main {
 	transform: skew(0deg, -3deg);
 }
 
+/*Footer*/
+
+footer {
+	margin-top: auto;
+}
+.wrapper_footer {
+	width: 1200px;
+	margin: 5px auto;
+}
+
+.footer_rij_één {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer_rij_één img {
+	width: 300px;
+	display: flex;
+}
+
+.go_vlaams img {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: auto 0;
+	height: calc(155px - 60px);
+	width: 300px;
+}
+
+.go_vlaams {
+	width: 33.33%;
+	justify-content: flex-start;
+	align-self: top;
+}
+
+.go_brussel img {
+	display: flex;
+	justify-content: center;
+	height: calc(155px - 40px);
+	width: 260px;
+}
+.go_brussel {
+	display: flex;
+	justify-content: center;
+	width: 33.33%;
+}
+
+.smartschool img {
+	height: calc(155px - 30px);
+	width: 300px;
+}
+
+.smartschool {
+	display: flex;
+	width: 33.33%;
+	justify-content: flex-end;
+	align-self: center;
+}
+
+.footer_rij_twee {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.footer_rij_twee div {
+	flex: 1;
+}
+
+.footer_contact h3 {
+	margin-bottom: 10px;
+}
+
+.footer_contact_inhoud {
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.footer_contact_inhoud img {
+	width: 30px;
+	padding-right: 15px;
+}
+
+.social_media_footer {
+	display: flex;
+	align-items: center;
+}
+
+.social_media_iconen img {
+	height: 80px;
+	padding: 0 20px;
+}
+
+.social_media_iconen {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+.go_vormen img {
+	height: 280px;
+}
+
+.go_vormen {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+}
+.theGo {
+	padding-top: 10%;
+	padding-bottom: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.go {
+	font-size: 30px;
+	padding: 65px;
+	border-radius: 40px;
+	background-color: #c6076f;
+	color: white;
+	display: inline-block;
+}
+
+.go:hover {
+	font-size: 30px;
+	padding: 65px;
+	border-radius: 40px;
+	background-color: #f3d8e5;
+	color: black;
+}
+
 /*wie is wie pagina*/
 
 .wieiswie_wrapper {
@@ -425,16 +561,8 @@ main {
 	text-align: center;
 	padding: 20px;
 }
-/*Footer*/
 
-footer {
-	margin-top: auto;
-}
-.wrapper_footer {
-	width: 1200px;
-	margin: 5px auto;
-}
-
+<<<<<<< HEAD
 .footer_rij_één {
 	display: flex;
 	flex-direction: row;
@@ -534,43 +662,18 @@ footer {
 .go_vormen img {
 	height: 280px;
 }
+=======
+/*social media*/
+>>>>>>> 6e41e1703159be8b405b590ead0284844680e779
 
-.go_vormen {
-	display: flex;
-	justify-content: flex-end;
-	align-items: end;
-}
-.theGo {
-	padding-top: 10%;
-	padding-bottom: 5%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+.socialeMedia {
 	text-align: center;
 }
-.go {
-	font-size: 30px;
-	padding: 65px;
-	border-radius: 40px;
-	background-color: #c6076f;
-	color: white;
-	display: inline-block;
-}
-
-.go:hover {
-	font-size: 30px;
-	padding: 65px;
-	border-radius: 40px;
-	background-color: #f3d8e5;
-	color: black;
-}
-
-/*social media*/
 
 .socialeMedia .basis_blokken {
 	display: flex;
-	flex-direction: row;
-	width: 1000px;
+	flex-direction: column;
+	align-items: center;
 	margin: 50px auto;
 }
 
@@ -579,31 +682,53 @@ footer {
 	background-color: #c6076f;
 	text-align: center;
 	color: white;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 	height: 40px;
-	margin-top: 100px;
 	border-radius: 30px;
-	width: 300px;
-	margin: 150px 20px;
+	width: 80%;
 }
 
 .socialeMedia a {
-	width: 100px;
+	width: 100%;
 	text-align: center;
 	color: #fff;
-	font-size: 30px;
+	font-size: 20px;
 	margin: auto 10px;
+	display: inline-block;
+	text-decoration: none;
 }
 
-.socialeMedia .basis_blok :hover {
-	color: lightgray;
+.socialeMedia .basis_blok:hover {
+	background-color: #9b0552;
 }
 
 .Reclame {
 	text-align: center;
-	width: 1200px;
-	margin: auto 10px;
+	width: 80%;
+	margin: 20px auto;
 }
+
+@media screen and (max-width: 640px) {
+	.socialeMedia .basis_blokken {
+		flex-direction: column;
+	}
+
+	.socialeMedia .basis_blok {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 641px) {
+	.socialeMedia .basis_blokken {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.socialeMedia .basis_blok {
+		width: calc(50% - 20px);
+	}
+}
+/* CONTACT */
 
 #map-container {
 	flex: 1;
@@ -686,6 +811,7 @@ address {
 }
 
 /*regelement*/
+
 .leefregels {
 	margin: 30px;
 }
@@ -770,6 +896,7 @@ address {
 .fotovijf img {
 	width: 200px;
 }
+
 /*info avnond*/
 
 /*
