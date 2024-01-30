@@ -5,6 +5,18 @@
 	}
 }
 
+@media screen and (max-width: 640px) {
+	.basis_structuur_top_2,
+	.basis_structuur_top,
+	.basis_structuur_bottom {
+		width: 640px;
+	}
+	.basis_structuur_top_2 h2,
+	.basis_structuur_top h2 {
+		margin: 0 auto;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	nav {
 		margin-top: -160px;
@@ -86,6 +98,39 @@
 		margin-top: 0px;
 	}
 
+	/*Footer*/
+
+	.wrapper_footer {
+		width: 768px;
+	}
+
+	.footer_rij_één {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0 auto;
+	}
+
+	.go_brussel {
+		align-self: center;
+		margin: 50px 0;
+	}
+
+	.go_vlaams {
+		align-self: center;
+	}
+
+	.social_media_iconen {
+		display: none;
+		flex-direction: column;
+	}
+
+	.footer_socialmedia_tekst {
+		display: contents;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
 	/* wie is wie*/
 
 	.drop-in-2 {
@@ -98,7 +143,6 @@
 
 	.wieiswie_secretariaat {
 		justify-content: center;
-		width: 90%;
 	}
 
 	.wieiswie_secretariaat_info {
@@ -106,6 +150,10 @@
 		width: 100%;
 		flex-direction: column;
 		flex-flow: row wrap;
+	}
+
+	#LB {
+		width: 60%;
 	}
 
 	.wieiswie_foto_parent {
@@ -127,14 +175,16 @@
 
 	.wieiswie_persoon {
 		margin-left: 20px;
-	}
-
-	.mobile_b1 {
-		display: flex;
-		justify-content: center;
+		margin-right: 20px;
+		width: 300px;
 	}
 
 	/* studieaanbod */
+
+	.wrapper p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 
 	.grid {
 		display: grid;
@@ -154,19 +204,17 @@
 	}
 
 	.grid-container-3 {
-		grid-template-columns: 200px 60px 60px 60px 60px 60px 60px 60px 60px;
+		grid-template-columns: 200px 45px 45px 45px 45px 45px 45px 45px 45px;
+		grid-template-rows: 90px 50px 50px 50px 50px 50px;
 	}
 
 	.grid-container-4 {
-		grid-template-columns: 200px 100px 100px 100px 100px;
+		grid-template-columns: 180px 100px 100px 100px 100px;
 	}
 
 	.grid-container-5 {
-		grid-template-columns: 200px 60px 60px 60px 60px 60px 100px 100px;
-	}
-
-	.basis_structuur_top_2 {
-		width: 100vw;
+		grid-template-columns: 180px 55px 55px 55px 55px 55px 55px 55px;
+		grid-template-rows: 130px 50px 50px 50px 50px 50px;
 	}
 
 	/* the go*/
