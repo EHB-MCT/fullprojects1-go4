@@ -29,10 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 		});
 	}
-
-	// Initial call to set the background color on page load
 	updateBackgroundColor();
-
-	// Event listener to update the background color on scroll
 	window.addEventListener("scroll", updateBackgroundColor);
 });
