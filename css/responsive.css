@@ -6,10 +6,13 @@
 }
 
 @media screen and (max-width: 640px) {
-	.basis_structuur_top_2 {
+	.basis_structuur_top_2,
+	.basis_structuur_top,
+	.basis_structuur_bottom {
 		width: 640px;
 	}
-	.basis_structuur_top_2 h2 {
+	.basis_structuur_top_2 h2,
+	.basis_structuur_top h2 {
 		margin: 0 auto;
 	}
 }
@@ -28,7 +31,8 @@
 	.basis_structuur_wrapper,
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
-	.socialeMedia {
+	.socialeMedia,
+	.wrapper_footer {
 		width: 640px;
 		margin: 0 auto;
 	}
@@ -70,12 +74,20 @@
 	.wrapper_footer {
 		padding-left: 20px;
 		padding-right: 20px;
-		width: 85%;
 		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.wrapper_footer img {
 		height: 120px;
+	}
+
+	.footer_rij_één {
+		width: 640px;
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0 auto;
 	}
 
 	.footer_rij_één img {
@@ -84,7 +96,8 @@
 	}
 
 	.footer_rij_twee {
-		padding-left: 20px;
+		width: 600px;
+		align-self: center;
 	}
 
 	.footer_contact img {
@@ -96,16 +109,6 @@
 	}
 
 	/*Footer*/
-
-	.wrapper_footer {
-		width: 768px;
-	}
-
-	.footer_rij_één {
-		display: flex;
-		flex-direction: column-reverse;
-		margin: 0 auto;
-	}
 
 	.go_brussel {
 		align-self: center;
@@ -125,7 +128,7 @@
 		display: contents;
 		display: flex;
 		flex-direction: column;
-		text-align: center;
+		text-align: end;
 	}
 
 	/* wie is wie*/
@@ -140,7 +143,6 @@
 
 	.wieiswie_secretariaat {
 		justify-content: center;
-		width: 90%;
 	}
 
 	.wieiswie_secretariaat_info {
@@ -148,6 +150,10 @@
 		width: 100%;
 		flex-direction: column;
 		flex-flow: row wrap;
+	}
+
+	#LB {
+		width: 60%;
 	}
 
 	.wieiswie_foto_parent {
@@ -169,11 +175,8 @@
 
 	.wieiswie_persoon {
 		margin-left: 20px;
-	}
-
-	.mobile_b1 {
-		display: flex;
-		justify-content: center;
+		margin-right: 20px;
+		width: 300px;
 	}
 
 	/* studieaanbod */
@@ -264,6 +267,7 @@
 
 	.factuur_links {
 		margin: 0 auto;
+		flex-direction: column;
 	}
 
 	.factuur_wrapper p {
@@ -273,6 +277,8 @@
 	/* infrastructuur */
 
 	.infrastructuur_blok {
+		display: flex;
+		flex-direction: column;
 		box-shadow: none;
 		background-color: #c6076f;
 		text-align: center;
