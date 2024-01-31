@@ -32,24 +32,27 @@ nav {
 	bottom: 1;
 }
 
+.logoMobile {
+	display: none;
+}
+
 main {
 	margin-bottom: 150px;
 }
 
 #main_home {
-	margin-top: 150px;
+	margin-top: 110px;
 }
 
 #nav_home {
-	border-bottom: 3px solid transparent;
-	margin-top: -150px;
+	border-bottom: 0px solid transparent;
 }
 
 .triangel {
 	border-top: 0 solid transparent;
 	border-left: 100vw solid white;
 	border-bottom: 100px solid transparent;
-	height: 1px;
+	height: 110px;
 	width: 100%;
 	position: fixed;
 	margin-top: -14px;
