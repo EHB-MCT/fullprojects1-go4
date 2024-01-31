@@ -916,9 +916,8 @@ address {
 		margin-top: 20px;
 	}
 	.visie_blok_text {
-		font-size: 18px;
-		color: white;
-		text-align: center;
+		font-size: 15px;
+		text-align: left;
 		/*padding: 40px;*/
 	}
 	.visie_blok {
@@ -1003,6 +1002,7 @@ address {
 /*----------------------------------------------Visie----------------------------------------------*/
 
 .visie_blok_text {
+	font-size: 15px;
 	color: white;
 	text-align: start;
 	padding: 40px;
