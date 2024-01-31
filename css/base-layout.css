@@ -12,7 +12,7 @@
 }
 .rectangle2 {
 	height: 100px;
-	top: 1200px;
+	top: 1250px;
 	z-index: 50;
 }
 
@@ -510,24 +510,19 @@ footer {
 
 /*----------------------------------------------Social Media----------------------------------------------*/
 
-.socialeMedia {
+.socialMedia {
 	text-align: center;
 }
 
-.socialeMedia .basic_blocks {
+.socialMedia .basic_blocks {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 50px auto;
 }
 
-<<<<<<< HEAD
 .socialMedia .basic_block {
 	padding: 5px;
-=======
-.socialeMedia .basic_block {
-	padding: 10px;
->>>>>>> 657c15fcf059a8c9dc3621261110d3161510151a
 	background-color: #c6076f;
 	text-align: center;
 	color: white;
@@ -543,7 +538,7 @@ footer {
 	font-size: 20px;
 	text-decoration: none;
 }
-.socialeMedia a:hover {
+.socialMedia a:hover {
 	color: lightgray;
 }
 
@@ -558,22 +553,22 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-	.socialeMedia .basic_blocks {
+	.socialMedia .basic_blocks {
 		flex-direction: column;
 	}
 
-	.socialeMedia .basic_blocks {
+	.socialeMdia .basic_blocks {
 		width: 100%;
 	}
 }
 
 @media screen and (min-width: 641px) {
-	.socialeMedia .basic_blocks {
+	.socialMedia .basic_blocks {
 		flex-direction: row;
 		justify-content: center;
 	}
 
-	.socialeMedia .basic_blocks {
+	.socialMedia .basic_blocks {
 		width: calc(50% - 20px);
 	}
 }
@@ -790,15 +785,9 @@ address {
 	width: 200px;
 }
 
-<<<<<<< HEAD
 /*----------------------------------------------Infoavond----------------------------------------------*/
 
 .infonight_wrapper .basic_blocks {
-=======
-/*--------------------------------------------INFO AVOND-------------------------------------------*/
-
-.infoAvond .basic_blocks {
->>>>>>> 657c15fcf059a8c9dc3621261110d3161510151a
 	display: flex;
 }
 .infonight_wrapper .Kaders {
