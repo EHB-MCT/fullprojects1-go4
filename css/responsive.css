@@ -43,6 +43,10 @@
 		display: none;
 	}
 
+	#main_home {
+		margin-top: 238px;
+	}
+
 	header {
 		margin-bottom: -150px;
 	}
