@@ -833,6 +833,8 @@ address {
 	width: 200px;
 }
 
+/*---------------------------------INFO AVOND----------------------------------*/
+
 .infoAvond .basic_blocks {
 	display: flex;
 }
@@ -864,10 +866,15 @@ address {
 }
 
 .Kaders img {
-	margin-top: 50px;
+	margin-top: 100px;
 }
 .infoAvond .basis_structuur_bottom {
 	margin-top: 500px;
+}
+.Picture img {
+	margin-top: 200px;
+	width: 400px;
+	height: auto;
 }
 
 @media (max-width: 460px) {
