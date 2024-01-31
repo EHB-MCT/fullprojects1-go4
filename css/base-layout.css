@@ -570,14 +570,13 @@ footer {
 }
 
 .socialeMedia .basic_block {
-	padding: 5px;
+	padding: 10px;
 	background-color: #c6076f;
 	text-align: center;
 	color: white;
-	margin-bottom: 20px;
-	height: 40px;
+	height: 30px;
 	border-radius: 30px;
-	width: 80%;
+	width: 200px;
 }
 
 .socialeMedia a {
@@ -585,9 +584,10 @@ footer {
 	text-align: center;
 	color: #fff;
 	font-size: 20px;
-	margin: auto 10px;
-	display: inline-block;
 	text-decoration: none;
+}
+.socialeMedia a:hover {
+	color: lightgray;
 }
 
 .socialeMedia .basic_block:hover {
@@ -596,8 +596,8 @@ footer {
 
 .Reclame {
 	text-align: center;
-	width: 80%;
-	margin: 20px auto;
+	width: 400px;
+	margin: 50px auto;
 }
 
 @media screen and (max-width: 640px) {
