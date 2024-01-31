@@ -106,19 +106,19 @@
 		height: 120px;
 	}
 
-	.footer_rij_één {
+	.footer_row_one {
 		width: 600px;
 		display: flex;
 		flex-direction: column-reverse;
 		margin: 0 auto;
 	}
 
-	.footer_rij_één img {
+	.footer_row_one img {
 		width: 100%;
 		height: 80%;
 	}
 
-	.footer_rij_twee {
+	.footer_row_two {
 		width: 600px;
 		align-self: center;
 	}
@@ -142,12 +142,12 @@
 		align-self: center;
 	}
 
-	.social_media_iconen {
+	.social_media_icons {
 		display: none;
 		flex-direction: column;
 	}
 
-	.footer_socialmedia_tekst {
+	.footer_socialmedia_text {
 		display: contents;
 		display: flex;
 		flex-direction: column;
