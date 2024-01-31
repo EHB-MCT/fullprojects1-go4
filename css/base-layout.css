@@ -731,17 +731,17 @@ address {
 	}
 
 	.contact .basis_blok {
-		width: 100%; /* Volledige breedte bij kleinere schermen */
-		margin: 10px 0; /* Aanpassen van marges naar wens */
+		width: 100%;
+		margin: 10px 0;
 	}
 
 	.PlanInfo {
-		margin-left: 10px; /* Aanpassen van marges naar wens */
+		margin-left: 10px;
 		width: auto;
 	}
 
 	.PlanInfo .basis_blok {
-		width: 100%; /* Volledige breedte bij kleinere schermen */
+		width: 100%;
 		margin-left: 0;
 	}
 }

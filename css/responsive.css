@@ -52,15 +52,16 @@
 	.basis_structuur_wrapper,
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
-	.socialeMedia,
-	.wrapper_footer {
+	.socialeMedia {
 		width: 640px;
 		margin: 0 auto;
 	}
-
+	.wrapper_footer {
+		width: 600px;
+	}
 	.triangel,
 	.rectangle,
-	.go_vormen {
+	.go_shapess {
 		display: none;
 	}
 
@@ -98,6 +99,7 @@
 		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
+		margin-top: -120px;
 	}
 
 	.wrapper_footer img {
@@ -105,7 +107,7 @@
 	}
 
 	.footer_row_one {
-		width: 640px;
+		width: 600px;
 		display: flex;
 		flex-direction: column-reverse;
 		margin: 0 auto;
