@@ -35,6 +35,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+	.logoMobile {
+		display: flex;
+	}
+
 	.menu li a {
 		display: flex;
 	}
@@ -219,8 +223,9 @@
 	}
 
 	.grid-container-1 {
-		margin-right: 50px;
-		margin-left: 50px;
+		grid-template-columns: 380px 100px 100px;
+		margin-right: 10px;
+		margin-left: 10px;
 		margin-bottom: 20px;
 	}
 

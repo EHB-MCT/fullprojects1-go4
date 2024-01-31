@@ -4,15 +4,15 @@
 .rectangle2 {
 	margin-top: 20px;
 	position: absolute;
-	height: 1300px;
+	height: 1200px;
 	width: 100%;
 	background-color: #c6076f;
 	z-index: -1;
 	transform: skew(0deg, -3deg);
 }
 .rectangle2 {
-	height: 150px;
-	top: 1300px;
+	height: 100px;
+	top: 1200px;
 	z-index: 50;
 }
 
