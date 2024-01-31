@@ -26,14 +26,14 @@ nav {
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
-	margin-top: -100px;
+	margin-top: -85px;
 	border-bottom: 4px solid #c6076f;
 	right: 1;
 	bottom: 1;
 }
 
 header {
-	margin-bottom: 60px;
+	margin-bottom: px;
 }
 
 main {
