@@ -22,9 +22,21 @@
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
+	.navigation {
+		margin-right: 2%;
+	}
+}
+
+@media screen and (max-width: 1250px) {
 	.navigation {
 		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.menu li a {
+		display: flex;
 	}
 
 	nav {

@@ -26,14 +26,10 @@ nav {
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
-	margin-top: -100px;
+	margin-top: -85px;
 	border-bottom: 4px solid #c6076f;
 	right: 1;
 	bottom: 1;
-}
-
-header {
-	margin-bottom: 60px;
 }
 
 main {
@@ -63,7 +59,7 @@ main {
 .navigation {
 	display: flex;
 	flex-direction: row;
-	margin-right: 150px;
+	margin-right: 10%;
 }
 .dropdown {
 	margin: 0 15px;
@@ -168,6 +164,7 @@ main {
 
 .menu li a {
 	color: #fff;
+	display: none;
 }
 
 .menu li {
