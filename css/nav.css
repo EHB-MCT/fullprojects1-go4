@@ -59,7 +59,7 @@ main {
 .navigation {
 	display: flex;
 	flex-direction: row;
-	margin-right: 150px;
+	margin-right: 10%;
 }
 .dropdown {
 	margin: 0 15px;
@@ -164,6 +164,7 @@ main {
 
 .menu li a {
 	color: #fff;
+	display: none;
 }
 
 .menu li {
