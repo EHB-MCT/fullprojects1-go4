@@ -164,15 +164,15 @@
 		margin-top: 160px;
 	}
 
-	.wieiswie_secretariaat_titel {
+	.wieiswie_secretariat_title {
 		width: 80%;
 	}
 
-	.wieiswie_secretariaat {
+	.wieiswie_secretariat {
 		justify-content: center;
 	}
 
-	.wieiswie_secretariaat_info {
+	.wieiswie_secretariat_info {
 		display: flex;
 		width: 100%;
 		flex-direction: column;
@@ -192,15 +192,7 @@
 		margin-left: 20px;
 	}
 
-	.wieiswie_vakgroep_titel {
-		width: 70%;
-	}
-
-	.wieiswie_vakgroep_info {
-		width: 90%;
-	}
-
-	.wieiswie_persoon {
+	.wieiswie_person {
 		margin-left: 20px;
 		margin-right: 20px;
 		width: 300px;
