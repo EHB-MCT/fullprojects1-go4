@@ -22,13 +22,29 @@
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
+	.navigation {
+		margin-right: 2%;
+	}
+}
+
+@media screen and (max-width: 1250px) {
 	.navigation {
 		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.menu li a {
+		display: flex;
 	}
 
 	nav {
 		display: none;
+	}
+
+	#main_home {
+		margin-top: 238px;
 	}
 
 	header {
@@ -40,15 +56,16 @@
 	.basis_structuur_wrapper,
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
-	.socialeMedia,
-	.wrapper_footer {
+	.socialeMedia {
 		width: 640px;
 		margin: 0 auto;
 	}
-
+	.wrapper_footer {
+		width: 600px;
+	}
 	.triangel,
 	.rectangle,
-	.go_vormen {
+	.go_shapes {
 		display: none;
 	}
 
@@ -86,25 +103,26 @@
 		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
+		margin-top: -120px;
 	}
 
 	.wrapper_footer img {
 		height: 120px;
 	}
 
-	.footer_rij_één {
-		width: 640px;
+	.footer_row_one {
+		width: 600px;
 		display: flex;
 		flex-direction: column-reverse;
 		margin: 0 auto;
 	}
 
-	.footer_rij_één img {
+	.footer_row_one img {
 		width: 100%;
 		height: 80%;
 	}
 
-	.footer_rij_twee {
+	.footer_row_two {
 		width: 600px;
 		align-self: center;
 	}
@@ -128,12 +146,12 @@
 		align-self: center;
 	}
 
-	.social_media_iconen {
+	.social_media_icons {
 		display: none;
 		flex-direction: column;
 	}
 
-	.footer_socialmedia_tekst {
+	.footer_socialmedia_text {
 		display: contents;
 		display: flex;
 		flex-direction: column;
@@ -309,14 +327,14 @@
 
 	/* infrastructuur */
 
-	.basis_structuur_wrapper .basis_blokken {
+	.basis_structuur_wrapper .basic_blocks {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 	}
 
-	.socialeMedia .basis_blok {
+	.socialeMedia .basic_block {
 		margin: 0px 0px;
 	}
 

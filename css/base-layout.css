@@ -132,34 +132,28 @@
 	box-shadow: -10px -10px #ff8ecc;
 }
 
-.mainImg {
-	background-image: url(/Proposal2/images/wideSchool.png);
-	background-size: 1500px;
-	height: 800px;
-}
+/*----------------------------------------------Main basic structure----------------------------------------------*/
 
-/*Main basis structuur*/
-
-.basis_structuur_top,
-.basis_structuur_top_2 {
+.basic_structure_top,
+.basic_structure_top_2 {
 	background-color: #c6076f;
 	width: 100%;
 	height: 80px;
 }
 
-.basis_structuur_top_2 {
+.basic_structure_top_2 {
 	margin-bottom: 20px;
 }
 
-.basis_structuur_top h2,
-.basis_structuur_top_2 h2 {
+.basic_structure_top h2,
+.basic_structure_top_2 h2 {
 	padding-top: 10px;
 	color: white;
 	display: flex;
 	justify-content: center;
 }
 
-.basis_structuur_bottom {
+.basic_structure_bottom {
 	background-color: #c6076f;
 	width: 100%;
 	height: 80px;
@@ -167,7 +161,7 @@
 	transform: skew(0deg, -3deg);
 }
 
-/*Footer*/
+/*----------------------------------------------Footer----------------------------------------------*/
 
 footer {
 	margin-top: auto;
@@ -177,13 +171,13 @@ footer {
 	margin: 5px auto;
 }
 
-.footer_rij_één {
+.footer_row_one {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.footer_rij_één img {
+.footer_row_one img {
 	width: 300px;
 	display: flex;
 }
@@ -227,13 +221,13 @@ footer {
 	align-self: center;
 }
 
-.footer_rij_twee {
+.footer_row_two {
 	display: flex;
 	flex-direction: row;
 	margin-top: 30px;
 }
 
-.footer_rij_twee div {
+.footer_row_two div {
 	flex: 1;
 }
 
@@ -241,14 +235,14 @@ footer {
 	margin-bottom: 10px;
 }
 
-.footer_contact_inhoud {
+.footer_contact_contents {
 	height: 50px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
 
-.footer_contact_inhoud img {
+.footer_contact_contents img {
 	width: 30px;
 	padding-right: 15px;
 }
@@ -258,26 +252,33 @@ footer {
 	align-items: center;
 }
 
-.social_media_iconen img {
+.social_media_icons img {
 	height: 80px;
 	padding: 0 20px;
 }
 
-.social_media_iconen {
+.social_media_icons {
 	display: flex;
 	justify-content: center;
 	align-self: center;
 }
 
-.go_vormen img {
+.go_shapes img {
 	height: 280px;
 }
 
-.go_vormen {
+.go_shapes {
 	display: flex;
 	justify-content: flex-end;
 	align-items: end;
 }
+
+.footer_socialmedia_text {
+	display: none;
+}
+
+/*----------------------------------------------The GO----------------------------------------------*/
+
 .theGo {
 	padding-top: 10%;
 	padding-bottom: 10%;
@@ -304,7 +305,7 @@ footer {
 	color: black;
 }
 
-/*wie is wie pagina*/
+/*----------------------------------------------Wie is wie----------------------------------------------*/
 
 .wieiswie_wrapper {
 	width: 1200px;
@@ -480,7 +481,7 @@ footer {
 	justify-content: center;
 }
 
-/*Maximumfactuur pagina*/
+/*----------------------------------------------Maximum Factuur----------------------------------------------*/
 
 .factuur_wrapper {
 	width: 1200px;
@@ -515,7 +516,7 @@ footer {
 	align-items: center;
 }
 
-/*infrastructuur pagina*/
+/*----------------------------------------------Infrastructuur----------------------------------------------*/
 
 .infrastructuur_wrapper {
 	display: flex;
@@ -555,119 +556,20 @@ footer {
 	padding: 20px;
 }
 
-.footer_rij_één {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.footer_rij_één img {
-	width: 300px;
-	display: flex;
-}
-
-.go_vlaams img {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	margin: auto 0;
-	height: calc(155px - 60px);
-	width: 300px;
-}
-
-.go_vlaams {
-	width: 33.33%;
-	justify-content: flex-start;
-	align-self: top;
-}
-
-.go_brussel img {
-	display: flex;
-	justify-content: center;
-	height: calc(155px - 40px);
-	width: 260px;
-}
-.go_brussel {
-	display: flex;
-	justify-content: center;
-	width: 33.33%;
-}
-
-.smartschool img {
-	height: calc(155px - 30px);
-	width: 300px;
-}
-
-.smartschool {
-	display: flex;
-	width: 33.33%;
-	justify-content: flex-end;
-	align-self: center;
-}
-
-.footer_rij_twee {
-	display: flex;
-	flex-direction: row;
-	margin-top: 30px;
-}
-
-.footer_rij_twee div {
-	flex: 1;
-}
-
-.footer_contact h3 {
-	margin-bottom: 10px;
-}
-
-.footer_contact_inhoud {
-	height: 50px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-.footer_contact_inhoud img {
-	width: 30px;
-	padding-right: 15px;
-}
-
-.social_media_footer {
-	display: flex;
-	align-items: center;
-}
-
-.social_media_iconen img {
-	height: 80px;
-	padding: 0 20px;
-}
-
-.social_media_iconen {
-	display: flex;
-	justify-content: center;
-	align-self: center;
-}
-
-.footer_socialmedia_tekst {
-	display: none;
-}
-
-.go_vormen img {
-	height: 280px;
-}
-/*social media*/
+/*----------------------------------------------Social Media----------------------------------------------*/
 
 .socialeMedia {
 	text-align: center;
 }
 
-.socialeMedia .basis_blokken {
+.socialeMedia .basic_blocks {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 50px auto;
 }
 
-.socialeMedia .basis_blok {
+.socialeMedia .basic_block {
 	padding: 5px;
 	background-color: #c6076f;
 	text-align: center;
@@ -688,7 +590,7 @@ footer {
 	text-decoration: none;
 }
 
-.socialeMedia .basis_blok:hover {
+.socialeMedia .basic_block:hover {
 	background-color: #9b0552;
 }
 
@@ -699,26 +601,26 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-	.socialeMedia .basis_blokken {
+	.socialeMedia .basic_blocks {
 		flex-direction: column;
 	}
 
-	.socialeMedia .basis_blok {
+	.socialeMedia .basic_blocks {
 		width: 100%;
 	}
 }
 
 @media screen and (min-width: 641px) {
-	.socialeMedia .basis_blokken {
+	.socialeMedia .basic_blocks {
 		flex-direction: row;
 		justify-content: center;
 	}
 
-	.socialeMedia .basis_blok {
+	.socialeMedia .basic_blocks {
 		width: calc(50% - 20px);
 	}
 }
-/* CONTACT */
+/*----------------------------------------------Contact----------------------------------------------*/
 
 #map-container {
 	flex: 1;
@@ -742,7 +644,7 @@ footer {
 	padding: 20px;
 	margin-right: 5px;
 }
-.contact .basis_blok {
+.contact .basic_block {
 	padding: 15px;
 	flex: 2;
 	margin-bottom: 50px;
@@ -751,7 +653,7 @@ footer {
 	margin-top: 30px;
 	box-shadow: -10px -10px #ff8ecc;
 }
-.contact .basis_blok a {
+.contact .basic_block a {
 	color: #fff;
 }
 .main_map {
@@ -772,7 +674,7 @@ address {
 	margin-bottom: 10px;
 }
 
-.PlanInfo .basis_blok {
+.PlanInfo .basic_block {
 	background: #c6076f;
 	width: 500px;
 	height: 100px;
@@ -828,23 +730,23 @@ address {
 		align-items: center;
 	}
 
-	.contact .basis_blok {
-		width: 100%; /* Volledige breedte bij kleinere schermen */
-		margin: 10px 0; /* Aanpassen van marges naar wens */
+	.contact .basic_block {
+		width: 100%;
+		margin: 10px 0;
 	}
 
 	.PlanInfo {
-		margin-left: 10px; /* Aanpassen van marges naar wens */
+		margin-left: 10px;
 		width: auto;
 	}
 
-	.PlanInfo .basis_blok {
-		width: 100%; /* Volledige breedte bij kleinere schermen */
+	.PlanInfo .basic_block {
+		width: 100%;
 		margin-left: 0;
 	}
 }
 
-/*regelement*/
+/*----------------------------------------------Schoolregelement----------------------------------------------*/
 
 .leefregels {
 	margin: 30px;
@@ -931,14 +833,7 @@ address {
 	width: 200px;
 }
 
-/*info avnond*/
-
-/*
-.infoAvond {
-}
-*/
-
-.infoAvond .basis_blokken {
+.infoAvond .basic_blocks {
 	display: flex;
 }
 .infoAvond .Kaders {
@@ -946,7 +841,7 @@ address {
 	margin: 100px;
 	flex-direction: row;
 }
-.infoAvond .basis_blok {
+.infoAvond .basic_block {
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	height: 100px;
@@ -965,7 +860,6 @@ address {
 }
 .TextBlok p {
 	margin-bottom: 50px;
-
 	width: 550px;
 }
 
@@ -989,7 +883,7 @@ address {
 		margin: 0 auto;
 	}
 
-	.infoAvond .basis_blokken {
+	.infoAvond .basic_blocks {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -1000,7 +894,7 @@ address {
 		margin: 10px 0;
 	}
 
-	.infoAvond .basis_blok {
+	.infoAvond .basic_block {
 		width: 100%;
 		max-width: 300px;
 	}
@@ -1035,13 +929,13 @@ address {
 	}
 }
 
-/*wanneer*/
+/*----------------------------------------------wanneer----------------------------------------------*/
 
 .wanneer {
 	display: flex;
 }
 
-.wanneer .basis_blokken {
+.wanneer .basic_blocks {
 	display: flex;
 	flex-direction: row;
 }
@@ -1050,7 +944,7 @@ address {
 	margin: 70px 200px;
 	width: 600px;
 }
-.wanneer .basis_blok {
+.wanneer .basic_block {
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	height: 100px;
@@ -1061,15 +955,10 @@ address {
 	color: white;
 }
 
-/*
-.wanneer .TextBlok {
-}
-*/
-
 .wanneer .basis_structuur_bottom {
 	margin-top: 800px;
 }
-.wanneer .basis_blokken img {
+.wanneer .basic_blocks img {
 	width: 400px;
 	height: auto;
 }
@@ -1084,16 +973,16 @@ address {
 		width: 300px;
 	}
 
-	.wanneer .basis_blokken {
+	.wanneer .basic_blocks {
 		flex-direction: column;
 	}
 
-	.wanneer .basis_blok {
+	.wanneer .basic_block {
 		width: auto;
 		margin: 10px 0;
 	}
 
-	.wanneer .basis_blokken img {
+	.wanneer .basic_blocks img {
 		width: 300px;
 		height: auto;
 		margin-left: -300px;
@@ -1110,7 +999,7 @@ address {
 	}
 }
 
-/*visie*/
+/*----------------------------------------------Visie----------------------------------------------*/
 
 .visie_blok_text {
 	font-size: 15px;
