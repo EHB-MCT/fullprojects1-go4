@@ -280,25 +280,26 @@ footer {
 }
 .theGo {
 	padding-top: 10%;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
+	width: auto;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 	text-align: center;
+	justify-content: space-between;
 }
 .go {
-	font-size: 30px;
-	padding: 65px;
-	border-radius: 40px;
+	font-size: 25px;
+	padding: 44px;
+	border-radius: 35px;
 	background-color: #c6076f;
 	color: white;
 	display: inline-block;
+	justify-content: space-between;
 }
 
 .go:hover {
-	font-size: 30px;
-	padding: 65px;
-	border-radius: 40px;
+	font-size: 25px;
+	padding: 44px;
+	border-radius: 35px;
 	background-color: #f3d8e5;
 	color: black;
 }
@@ -1019,6 +1020,19 @@ address {
 
 	.infoAvond .basis_structuur_bottom {
 		margin-top: 20px;
+	}
+	.visie_blok_text {
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		/*padding: 40px;*/
+	}
+	.visie_blok {
+		margin: 0 auto;
+		align-self: center;
+		background-color: #c6076f;
+		box-shadow: -10px -10px#ff8ecc;
+		margin-bottom: 50px;
 	}
 }
 
