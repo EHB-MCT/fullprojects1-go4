@@ -327,14 +327,14 @@
 
 	/* infrastructuur */
 
-	.basis_structuur_wrapper .basis_blokken {
+	.basis_structuur_wrapper .basic_blocks {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 	}
 
-	.socialeMedia .basis_blok {
+	.socialeMedia .basic_block {
 		margin: 0px 0px;
 	}
 
