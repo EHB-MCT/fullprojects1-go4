@@ -508,11 +508,16 @@ footer {
 	text-decoration: none;
 }
 .socialMedia a:hover {
-	color: lightgray;
+	color: black;
+	background-color: #f3d8e5;
 }
 
-.socialMedia .basic_block:hover {
-	background-color: #9b0552;
+.basic_block:hover {
+	background-color: #f3d8e5;
+	color: black;
+	a {
+		color: black;
+	}
 }
 
 .advertisement {
