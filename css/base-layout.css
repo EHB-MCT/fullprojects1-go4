@@ -723,7 +723,6 @@ address {
 .box {
 	margin: 100px;
 	width: 500px;
-	height: 225px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -734,7 +733,6 @@ address {
 .boxtwee {
 	margin: 100px 700px;
 	width: 700px;
-	height: 275px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -745,7 +743,6 @@ address {
 .boxdrie {
 	margin: 100px;
 	width: 700px;
-	height: 225px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -756,7 +753,6 @@ address {
 .boxvier {
 	margin: 100px 700px;
 	width: 700px;
-	height: 300px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -766,7 +762,6 @@ address {
 .boxvijf {
 	margin: auto;
 	width: 700px;
-	height: 300px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
 	display: flex;
@@ -794,7 +789,7 @@ address {
 .infonight_wrapper .basic_blocks {
 	display: flex;
 }
-.infonight_wrapper .Kaders {
+.infonight_wrapper .frame {
 	width: 600px;
 	margin: 100px;
 	flex-direction: row;
@@ -821,7 +816,7 @@ address {
 	width: 550px;
 }
 
-.Kaders img {
+.frame img {
 	margin-top: 100px;
 }
 .infonight_wrapper .basis_structuur_bottom {
