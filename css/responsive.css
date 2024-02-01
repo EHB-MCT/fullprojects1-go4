@@ -34,6 +34,19 @@
 	#blocks3 .Kaders {
 		margin-left: 200px;
 	}
+
+	#map-container {
+		width: 540px;
+	}
+	.main_map {
+		width: 400px;
+	}
+
+	.contact .basic_block {
+		margin-left: -100px;
+		margin-bottom: 20px;
+		width: 400px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -84,7 +97,8 @@
 	.infonight_wrapper,
 	.basis_structure_top,
 	.basis_structure_top2,
-	.main_map {
+	.main_map,
+	.PlanInfo {
 		width: 640px;
 		margin: 0 auto;
 	}
@@ -391,7 +405,6 @@
 	.main_map {
 		display: block;
 		flex-direction: column wrap;
-		margin-left: 65px;
 	}
 	#map-container {
 		margin-left: 0px;
