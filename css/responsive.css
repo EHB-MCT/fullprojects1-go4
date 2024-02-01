@@ -7,7 +7,6 @@
 		display: none;
 	}
 }
-
 @media screen and (max-width: 640px) {
 	.basis_structuur_top_2,
 	.basis_structuur_top,
@@ -21,40 +20,32 @@
 		margin: 0 auto;
 	}
 }
-
 @media screen and (max-width: 1400px) {
 	.navigation {
 		margin-right: 2%;
 	}
 }
-
 @media screen and (max-width: 1250px) {
 	.navigation {
 		margin-right: 0px;
 	}
 }
-
 @media screen and (max-width: 1200px) {
 	.logoMobile {
 		display: flex;
 	}
-
 	.menu li a {
 		display: flex;
 	}
-
 	nav {
 		display: none;
 	}
-
 	#main_home {
 		margin-top: 238px;
 	}
-
 	header {
 		margin-bottom: -150px;
 	}
-
 	.wrapper,
 	.wieiswie_wrapper,
 	.basis_structuur_wrapper,
@@ -65,79 +56,63 @@
 		width: 640px;
 		margin: 0 auto;
 	}
-
 	.triangel,
 	.go_shapes,
 	.rectangle2 {
 		display: none;
 	}
-
 	.rectangle {
 		height: 420px;
 		top: 130px;
 	}
-
 	.info {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-
 	.infoImg {
 		margin-left: -200px;
 	}
-
 	.info p {
 		width: 400px;
 		margin-bottom: -50px;
 	}
-
 	.infoImg2 h3 {
 		height: 100px;
 		width: 400px;
 	}
-
 	.slider-frame {
 		display: none;
 	}
-
 	.headerFull {
 		background-color: #c6076f;
 		height: 300px;
 	}
-
 	.headerTxt {
 		margin-bottom: 0px;
 		margin-top: -80px;
 	}
-
 	.headerTxt h1 {
 		font-size: 50px;
 		margin-left: -60px;
 		margin-top: 40px;
 	}
-
 	.headerImg img {
 		height: 200px;
 		margin-left: 20px;
 		margin-top: 10px;
 	}
-
 	.mainImg {
 		height: 576px;
 		background-size: auto;
 	}
-
 	.info {
 		margin-top: 0px;
 	}
-
 	/*Footer*/
-
 	footer {
 		margin-top: 100px;
 	}
-
 	.wrapper_footer {
 		width: 600px;
 		height: 100px;
@@ -146,36 +121,29 @@
 		display: flex;
 		flex-direction: column;
 	}
-
 	.footer_contact img {
 		height: 30px;
 	}
-
 	.footer_contact {
 		margin-top: -0px;
 		margin-bottom: 10px;
 	}
-
 	.go_brussel {
 		align-self: center;
 		margin: 50px 0;
 	}
-
 	.go_vlaams {
 		align-self: center;
 	}
-
 	.footer_column_three,
 	.footer_column_one {
 		display: none;
 	}
-
 	.social_media_icons {
 		margin-top: -10px;
 		display: flex;
 		flex-direction: row;
 	}
-
 	.social_media_icons a {
 		height: 60px;
 		width: 60px;
@@ -183,74 +151,59 @@
 		justify-content: center;
 		align-content: center;
 	}
-
 	.social_media_icons a img {
 		margin-top: -15px;
 		height: 120%;
 	}
-
 	.footer_column_two {
 		margin-top: -10px;
 		width: 600px;
 		align-content: center;
 		justify-items: center;
 	}
-
 	.footer_socialmedia_text {
 		display: contents;
 		display: flex;
 		flex-direction: column;
 		text-align: end;
 	}
-
 	/* wie is wie*/
-
 	.drop-in-2 {
 		margin-top: 160px;
 	}
-
 	.wieiswie_secretariat_title {
 		width: 80%;
 	}
-
 	.wieiswie_secretariat {
 		justify-content: center;
 	}
-
 	.wieiswie_secretariat_info {
 		display: flex;
 		width: 100%;
 		flex-direction: column;
 		flex-flow: row wrap;
 	}
-
 	#LB {
 		width: 60%;
 	}
-
 	.wieiswie_foto_parent {
 		height: 100px;
 		width: 100px;
 		justify-content: center;
 	}
-
 	.mobile_wie {
 		margin-left: 20px;
 	}
-
 	.wieiswie_person {
 		margin-left: 20px;
 		margin-right: 20px;
 		width: 300px;
 	}
-
 	/* studieaanbod */
-
 	.wrapper p {
 		margin-left: 20px;
 		margin-right: 20px;
 	}
-
 	.grid {
 		display: grid;
 		justify-content: center;
@@ -262,47 +215,38 @@
 	.grid-container-5 {
 		margin-bottom: -60px;
 	}
-
 	.grid-container-1 {
 		grid-template-columns: 380px 100px 100px;
 		margin-right: 10px;
 		margin-left: 10px;
 		margin-bottom: 20px;
 	}
-
 	.grid-container-2 {
 		grid-template-columns: 280px 100px 100px 100px;
 		margin-right: 10px;
 		margin-left: 10px;
+		margin-bottom: -80px;
 	}
-
 	.grid-container-3 {
 		grid-template-columns: 200px 45px 45px 45px 45px 45px 45px 45px 45px;
 		grid-template-rows: 90px 50px 50px 50px 50px 50px;
 	}
-
 	.grid-container-4 {
 		grid-template-columns: 180px 100px 100px 100px 100px;
 	}
-
 	.grid-container-5 {
 		grid-template-columns: 180px 55px 55px 55px 55px 55px 55px 55px;
 		grid-template-rows: 130px 50px 50px 50px 50px 50px;
 	}
-
 	/* the go*/
-
 	.theGo {
 		width: 100%;
 		flex-direction: column;
 	}
-
 	.GO1 {
 		margin-top: 30px;
 	}
-
 	/* regelement */
-
 	.box,
 	.boxtwee,
 	.boxdrie,
@@ -312,43 +256,33 @@
 		margin-top: 50px;
 		margin-right: 0px;
 	}
-
 	.boxtwee {
 		width: 600px;
 	}
-
 	.boxdrie {
 		width: 630px;
 	}
-
 	.boxvier {
 		width: 660px;
 	}
-
 	.boxvijf {
 		margin-left: -70px;
 	}
-
 	.basis_structuur_wrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: start;
 		margin-left: 50px;
 	}
-
 	/* factuur */
-
 	.factuur_links {
 		margin: 0 auto;
 		flex-direction: column;
 	}
-
 	.factuur_wrapper p {
 		margin-left: 50px;
 	}
-
 	/* infrastructuur */
-
 	.infrastructuur_blok {
 		display: flex;
 		flex-direction: column;
@@ -359,37 +293,29 @@
 		align-items: center;
 		margin-bottom: 20px;
 	}
-
 	.infrastructuur_blok_img {
 		width: 100%;
 		margin: 0px;
 		justify-content: center;
 		align-items: center;
 	}
-
 	.basis_structuur_top {
 		margin-bottom: 50px;
 	}
-
 	/* infrastructuur */
-
 	.basis_structuur_wrapper .basic_blocks {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 	}
-
 	.socialeMedia .basic_block {
 		margin: 0px 0px;
 	}
-
 	/* sociaal contact */
-
 	.PlanInfo {
 		margin: 0px;
 	}
-
 	.info2 {
 		width: 500px;
 	}
