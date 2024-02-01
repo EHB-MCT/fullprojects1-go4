@@ -24,6 +24,8 @@
 
 .info {
 	justify-content: space-between;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .headerFull {
@@ -32,12 +34,12 @@
 }
 
 .headerTxt {
-	padding-left: 100px;
+	margin-left: 65px;
 	margin-bottom: -40px;
 }
 
 .headerImg {
-	width: 50%;
+	width: 48%;
 	display: flex;
 }
 
