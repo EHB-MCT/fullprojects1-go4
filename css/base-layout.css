@@ -7,13 +7,13 @@
 	height: 1200px;
 	width: 100%;
 	background-color: #c6076f;
-	z-homepage: -1;
+	z-index: -1;
 	transform: skew(0deg, -3deg);
 }
 .rectangle2 {
 	height: 100px;
 	top: 1300px;
-	z-homepage: 50;
+	z-index: 50;
 }
 
 .headerFull,
