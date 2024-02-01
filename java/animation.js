@@ -1,5 +1,9 @@
 const goToTopButton = document.getElementById("go-to-top-button");
 
+window.onload = () => {
+	scrollFunction();
+};
+
 window.onscroll = () => {
 	scrollFunction();
 };
