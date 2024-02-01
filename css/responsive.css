@@ -213,6 +213,7 @@
 	.wieiswie_foto_parent {
 		height: 100px;
 		width: 100px;
+		justify-content: center;
 	}
 
 	.mobile_wie {
