@@ -22,6 +22,10 @@
 	justify-content: space-evenly;
 }
 
+.info {
+	justify-content: space-between;
+}
+
 .headerFull {
 	align-items: center;
 	padding-top: 75px;
@@ -116,7 +120,7 @@
 	margin-top: 100px;
 	display: flex;
 	flex-direction: column;
-	width: 23%;
+	width: 31%;
 	text-align: start;
 }
 
@@ -243,8 +247,8 @@ footer {
 .go {
 	font-size: 25px;
 	padding: 44px;
-	border-radius: 35px;
 	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
 	color: white;
 	display: inline-block;
 	justify-content: space-between;
@@ -253,7 +257,6 @@ footer {
 .go:hover {
 	font-size: 25px;
 	padding: 44px;
-	border-radius: 35px;
 	background-color: #f3d8e5;
 	color: black;
 }
@@ -383,7 +386,7 @@ footer {
 
 .wieiswie_foto_parent {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 }
 
 /*----------------------------------------------Maximum Factuur----------------------------------------------*/
@@ -772,8 +775,8 @@ address {
 	margin-top: 500px;
 }
 .Picture img {
-	margin-top: 200px;
-	width: 400px;
+	margin-top: 240px;
+	width: 700px;
 	height: auto;
 }
 
@@ -866,8 +869,9 @@ address {
 	margin-top: 800px;
 }
 .wanneer .basic_blocks img {
-	width: 400px;
-	height: auto;
+	margin-top: 250px;
+	width: auto;
+	height: 400px;
 }
 @media (max-width: 460px) {
 	.wanneer {
