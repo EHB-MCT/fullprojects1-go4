@@ -411,6 +411,11 @@ footer {
 	margin-bottom: 40px;
 }
 
+.factuur_links a div:hover {
+	background-color: #f3d8e5;
+	color: black;
+}
+
 .factuur_links_block {
 	width: 400px;
 	display: flex;
@@ -420,6 +425,10 @@ footer {
 	height: 100px;
 	margin: 30px 10px;
 	align-content: space-evenly;
+}
+
+.factuur_links_block:hover {
+	box-shadow: -10px -10px#ff8ecc;
 }
 
 .factuur_links_block h3 {
