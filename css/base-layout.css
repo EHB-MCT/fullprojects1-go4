@@ -22,6 +22,10 @@
 	justify-content: space-evenly;
 }
 
+.info {
+	justify-content: space-between;
+}
+
 .headerFull {
 	align-items: center;
 	padding-top: 75px;
@@ -116,7 +120,7 @@
 	margin-top: 100px;
 	display: flex;
 	flex-direction: column;
-	width: 23%;
+	width: 31%;
 	text-align: start;
 }
 
@@ -430,7 +434,7 @@ footer {
 
 .wieiswie_foto_parent {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 }
 
 /*----------------------------------------------Maximum Factuur----------------------------------------------*/
