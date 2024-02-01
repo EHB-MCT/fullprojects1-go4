@@ -20,9 +20,11 @@
 		<link rel="stylesheet" href="css/typo.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
 		<link rel="stylesheet" href="css/animation.css" />
+		<link rel="stylesheet" href="java/animation.js" />
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="icon" href="images/logo_icon.svg" type="images/svg+xml" />
 	</head>
+
 	<body class="drop-in">
 		<header>
 			<div class="hamburger">
@@ -57,8 +59,7 @@
 						<li>
 							<a href="3deGraad.html" class="a-smaller">3de graad</a>
 						</li>
-						<li><a href="Go.html">Het Go</a></li>
-						<li><a href="schoolregelement.html">Schoolreglement</a></li>
+						<li><a href="schoolregelement.html">schoolregelement</a></li>
 						<li><a href="Schoolviesie.html">School visie</a></li>
 						<li><a href="maximumFactuur.html">Maximum factuur</a></li>
 						<li><a href="infrastructuur.html">Infrastructuur</a></li>
@@ -69,7 +70,7 @@
 					</ul>
 				</section>
 			</div>
-			<nav>
+			<nav id="nav_home">
 				<div class="logo">
 					<a href="index.html">
 						<img src="images/logo final.png" />
@@ -151,6 +152,7 @@
 					</div>
 				</div>
 			</nav>
+			<div class="triangel"></div>
 		</header>
 
 		<div class="btn-top">
@@ -158,78 +160,87 @@
 			<script src="java/animation.js"></script>
 		</div>
 
-		<main class="drop-in-2">
-			<div class="basic_structure_top">
-				<h2>Inschrijven</h2>
-			</div>
-			<div class="wanneer">
-				<div class="basis_structuur_wrapper">
-					<div class="basic_blocks">
-						<div class="Kaders">
-							<div class="basic_block">
-								<h3>1steGraad jaar</h3>
-							</div>
-							<div class="TextBlok">
-								<p>
-									Vanaf 14 mei 2024 kunnen we starten met inschrijven voor het
-									volgend schooljaar 2024 - 2025. <br />
-									Heb je jouw kind correct aangemeld? Dan krijg je op 13 mei
-									2024 een toewijzingsbericht via e-mail. Daarin staat of je
-									kind een plaats heeft of niet. <br />
-									Inschrijvingen voor toegewezen kinderen lopen tot en met 10
-									juni 2024. <br />
-									Hoe verder? Bij de inschrijving kom je naar onze school. Neem
-									zeker mee: je identiteitskaart van je kind. <br />
-									Niet aangemeld? Indien u niet online heeft aangemeld, kan u
-									contact opnemen met onze school door te bellen naar het nummer
-									02/241.31.08. U vraagt dan naar mevrouw Shimba. Zij is
-									verantwoordelijk voor alle inschrijvingen en kan je verder
-									helpen indien er nog vrije plaatsen over zijn. <br />
-									Vrije inschrijven volgen het principe van chronologie.
-								</p>
-								<h5>
-									Mis deze kans niet om meer te weten te komen over het GO!
-									Atheneum Emanuel Hiel. We kijken ernaar uit u en uw gezin te
-									ontmoeten!
-								</h5>
-							</div>
-						</div>
-						<img src="images/foto_klas.jpg" alt="" />
+		<main id="main_home" class="drop-in-2">
+			<div class="rectangle"></div>
+			<div class="rectangle2"></div>
+			<div class="wrapper">
+				<div class="headerFull">
+					<div class="headerTxt">
+						<h1>
+							Welkom bij <br />
+							GO! Atheneum Emanuel Hiel
+						</h1>
 					</div>
-					<div class="basic_blocks">
-						<div class="Kaders">
-							<div class="basic_block">
-								<h3>2-6de jaar</h3>
-							</div>
-							<div class="TextBlok">
-								<h5>Wanneer?</h5>
-								<p>
-									Vanaf 8 januari 2024 kan je een afspraak maken. Dit kan via
-									het telefoonnummer 02 241 31 08. Mevrouw Shimba is
-									verantwoordelijk voor de inschrijvingen.
-								</p>
-								<h5>Wie?</h5>
-								<p>
-									De leerling, die zich wil inschrijven, komt samen met een
-									ouder of voogd naar de school.
-								</p>
-								<h5>Meebrengen?</h5>
-								<p>
-									-De identiteitskaart of een geldig identiteitsbewijs van de
-									<br />
-									-De identiteitskaart van één van beide ouders of <br />
-									-Het getuigschrift of attest behaald in de vorige <br />
-									-Het rapport van vorig schooljaar. -Een pasfoto
-								</p>
-								<h5>Waar?</h5>
-								<p>Adres: Charles Gilisquetlaan 34, 1030 Schaarbeek</p>
-							</div>
+					<div class="headerImg">
+						<img src="images/school.webp" alt="" />
+					</div>
+				</div>
+				<div class="slider-frame">
+					<div class="slide-images">
+						<img src="images/SLIDER FOTO 1.jpg" />
+						<img src="images/SLIDER FOTO 2.jpg" />
+						<img src="images/SLIDER FOTO 3.jpg" />
+						<img src="images/SLIDER FOTO 4.jpg" />
+						<img src="images/SLIDER FOTO 5.jpg" />
+						<img src="images/SLIDER FOTO 6.jpg" />
+						<img src="images/SLIDER FOTO 1.jpg" />
+					</div>
+				</div>
+				<div class="info">
+					<div class="infoImg">
+						<div class="infoImg2">
+							<h3 class="shadow">Schoolvisie</h3>
 						</div>
-						<img src="images/foto_leerlingen.jpg" alt="" />
+						<p>
+							<strong class="strong2">Een warme school:</strong> In een warme
+							school staat het welzijn van elkaar centraal, waarbij de nadruk
+							ligt op onderlinge zorg en het creëren van een positieve sfeer.
+							<br />
+							<br /><strong class="strong2">Een taalrijke school:</strong> In
+							een taalrijke school wordt via meertaligheid gestreefd naar het
+							versterken van de Nederlandse taal.<br />
+							<br />
+							<strong class="strong2">OLB:</strong> Bij het OLB begeleiden we
+							continu de leerlingen gedurende hun volledige schoolcarrière door
+							voortdurende evaluatie en heroverweging van hun eigen talenten en
+							studiekeuzes.
+						</p>
+					</div>
+					<div class="infoImg">
+						<div class="infoImg2">
+							<h3 class="shadow">
+								Inschrijven <br />
+								2024 - 2025
+							</h3>
+						</div>
+						<p>
+							<strong class="strong2"
+								>Inschrijvingen staan open vanaf de zomervakantie!</strong
+							>
+							<br />
+							<br />
+							<strong>Tot 5 juli:</strong> elke dag van 9u tot 12u <br />
+							<strong>Vanaf 16 augustus: </strong> van 9u tot 12u <br /><br />
+							<em
+								>Tijdens de periode van 6 juli tot 15 augustus is de school
+								gesloten en kunnen er geen inschrijvingen doorgaan. Deze dienen
+								fysiek plaats te vinden op de school.</em
+							>
+						</p>
+					</div>
+					<div class="infoImg">
+						<div class="infoImg2">
+							<h3 class="shadow">Infodagen</h3>
+						</div>
+						<p>
+							<strong
+								>Donderdag 9 februari 2024 om 18u is iedereen welkom in het open
+								leercentrum.</strong
+							>
+						</p>
 					</div>
 				</div>
 			</div>
-			<div class="basis_structuur_bottom"></div>
 		</main>
 
 		<footer>
