@@ -33,6 +33,7 @@
 
 .headerTxt {
 	padding-left: 100px;
+	margin-bottom: -40px;
 }
 
 .headerImg {
@@ -42,6 +43,7 @@
 
 .headerImg img {
 	height: 300px;
+	margin-bottom: 60px;
 }
 
 .slider-frame {
