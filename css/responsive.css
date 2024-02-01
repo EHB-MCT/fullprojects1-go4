@@ -8,15 +8,17 @@
 	}
 }
 @media screen and (max-width: 640px) {
-	.basis_structuur_top_2,
-	.basis_structuur_top,
-	.basis_structuur_bottom,
+	.basic_structure_top_2,
+	.basis_structure_top,
+	.basis_structure_bottom,
 	.drop-in,
-	.menu {
+	.menu,
+	.rectangle,
+	footer {
 		width: 640px;
 	}
-	.basis_structuur_top_2 h2,
-	.basis_structuur_top h2 {
+	.basic_structure_top_2 h2,
+	.basis_structure_top h2 {
 		margin: 0 auto;
 	}
 }
