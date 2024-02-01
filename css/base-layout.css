@@ -471,6 +471,8 @@ footer {
 .infrastructuur_block_img img {
 	width: 400px;
 	margin: 20px;
+	justify-content: center;
+	align-content: center;
 }
 
 .infrastructuur_block_text {

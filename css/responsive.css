@@ -283,6 +283,7 @@
 		margin-left: 50px;
 	}
 	/* infrastructuur */
+
 	.infrastructuur_blok {
 		display: flex;
 		flex-direction: column;
@@ -293,12 +294,20 @@
 		align-items: center;
 		margin-bottom: 20px;
 	}
+
 	.infrastructuur_blok_img {
 		width: 100%;
 		margin: 0px;
 		justify-content: center;
-		align-items: center;
+		align-content: center;
+		margin-top: 100px;
 	}
+
+	.infrastructuur_block_img img {
+		width: 200px;
+		margin: 20px;
+	}
+
 	.basis_structuur_top {
 		margin-bottom: 50px;
 	}
