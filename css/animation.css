@@ -98,3 +98,19 @@ p {
 .scroll-animation {
 	display: none;
 }
+
+@layer demo {
+	@keyframes scale-a-lil {
+		from {
+			scale: 0.5;
+		}
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		img {
+			animation: scale-a-lil linear both;
+			animation-timeline: view();
+			animation-range: 0vh 50vh;
+		}
+	}
+}
