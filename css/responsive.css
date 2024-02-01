@@ -60,7 +60,8 @@
 	.basis_structuur_wrapper,
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
-	.socialeMedia {
+	.socialeMedia,
+	.info {
 		width: 640px;
 		margin: 0 auto;
 	}
@@ -68,15 +69,37 @@
 		width: 600px;
 	}
 	.triangel,
-	.rectangle,
-	.go_shapes {
+	.go_shapes,
+	.rectangle2 {
 		display: none;
 	}
 
-	.rectangle2 {
+	.rectangle {
+		height: 420px;
+		top: 130px;
+	}
+
+	.info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.infoImg {
+		margin-left: -200px;
+	}
+
+	.info p {
+		width: 400px;
+	}
+
+	.infoImg2 h3 {
 		height: 100px;
-		top: 930px;
-		width: 100%;
+		width: 400px;
+	}
+
+	.slider-frame {
+		display: none;
 	}
 
 	.headerFull {
