@@ -488,10 +488,10 @@ footer {
 .socialMedia .basic_block {
 	padding: 5px;
 	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
 	text-align: center;
 	color: white;
 	height: 30px;
-	border-radius: 30px;
 	width: 200px;
 }
 

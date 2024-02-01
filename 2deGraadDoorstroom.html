@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link rel="stylesheet" href="css/grid-layout.css" />
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Go! Emanuel Hiel</title>
@@ -10,18 +11,16 @@
 		<link rel="stylesheet" href="css/typo.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
 		<link rel="stylesheet" href="css/animation.css" />
-		<link rel="stylesheet" href="java/animation.js" />
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="icon" href="images/logo_icon.svg" type="images/svg+xml" />
 	</head>
-
 	<body class="drop-in">
 		<header>
 			<div class="hamburger">
 				<section class="top-nav">
 					<div class="logoMobile">
 						<div class="logo">
-							<a href="index.html">
+							<a href="HomePage.html">
 								<img src="images/logo final.png" />
 							</a>
 						</div>
@@ -31,21 +30,26 @@
 						<div class="menu-button"></div>
 					</label>
 					<ul class="menu">
-						<li><a href="index.html">Home</a></li>
+						<li><a href="HomePage.html">Home</a></li>
 						<li><a href="wieIsWie.html">Wie is wie</a></li>
-						<li><a href="1ste.html" class="a-smaller">1ste graad</a></li>
 						<li>
-							<a href="2deDoorstroom.html" class="a-smaller"
+							<a href="1steGraad.html" class="a-smaller">1ste graad</a>
+						</li>
+						<li>
+							<a href="2deGraadDoorstroom.html" class="a-smaller"
 								>2de graad Doorstroom</a
 							>
 						</li>
 						<li>
-							<a href="2deDubbele.html" class="a-smaller"
+							<a href="2deGraadDubbeleFinaliteit.html" class="a-smaller"
 								>2de graad Dubbele Finaliteit</a
 							>
 						</li>
-						<li><a href="3de.html" class="a-smaller">3de graad</a></li>
-						<li><a href="schoolregelement.html">schoolregelement</a></li>
+						<li>
+							<a href="3deGraad.html" class="a-smaller">3de graad</a>
+						</li>
+						<li><a href="Go.html">Het Go</a></li>
+						<li><a href="schoolregelement.html">Schoolreglement</a></li>
 						<li><a href="Schoolviesie.html">School visie</a></li>
 						<li><a href="maximumFactuur.html">Maximum factuur</a></li>
 						<li><a href="infrastructuur.html">Infrastructuur</a></li>
@@ -56,9 +60,9 @@
 					</ul>
 				</section>
 			</div>
-			<nav id="nav_home">
+			<nav>
 				<div class="logo">
-					<a href="index.html">
+					<a href="HomePage.html">
 						<img src="images/logo final.png" />
 					</a>
 				</div>
@@ -71,24 +75,28 @@
 							<ul>
 								<li><a href="wieIsWie.html">Wie is wie</a></li>
 								<li class="hover-me">
-									<a href="1ste.html">Studie aanbod</a>
+									<a href="1steGraad.html">Studie aanbod</a>
 									<div class="dropdown-content-2">
 										<ul>
 											<li>
-												<a href="1ste.html" class="a-smaller">1ste graad</a>
+												<a href="1steGraad.html" class="a-smaller"
+													>1ste graad</a
+												>
 											</li>
 											<li>
-												<a href="2deDoorstroom.html" class="a-smaller"
+												<a href="2deGraadDoorstroom.html" class="a-smaller"
 													>2de graad Doorstroom</a
 												>
 											</li>
 											<li>
-												<a href="2deDubbele.html" class="a-smaller"
+												<a
+													href="2deGraadDubbeleFinaliteit.html"
+													class="a-smaller"
 													>2de graad Dubbele Finaliteit</a
 												>
 											</li>
 											<li>
-												<a href="3de.html" class="a-smaller">3de graad</a>
+												<a href="3deGraad.html" class="a-smaller">3de graad</a>
 											</li>
 										</ul>
 									</div>
@@ -134,7 +142,6 @@
 					</div>
 				</div>
 			</nav>
-			<div class="triangel"></div>
 		</header>
 
 		<div class="btn-top">
@@ -142,84 +149,105 @@
 			<script src="java/animation.js"></script>
 		</div>
 
-		<main id="main_home" class="drop-in-2">
-			<div class="rectangle"></div>
-			<div class="rectangle2"></div>
+		<!--Hier komt de main*/-->
+		<main class="drop-in-2">
+			<div class="basic_structure_top_2">
+				<h2>2de graad Dubbele Finaliteit</h2>
+			</div>
 			<div class="wrapper">
-				<div class="headerFull">
-					<div class="headerTxt">
-						<h1>
-							Welkom bij <br />
-							GO! Atheneum Emanuel Hiel
-						</h1>
-					</div>
-					<div class="headerImg">
-						<img src="images/school.webp" alt="" />
-					</div>
-				</div>
-				<div class="slider-frame">
-					<div class="slide-images">
-						<img src="images/SLIDER FOTO 1.jpg" />
-						<img src="images/SLIDER FOTO 2.jpg" />
-						<img src="images/SLIDER FOTO 3.jpg" />
-						<img src="images/SLIDER FOTO 4.jpg" />
-						<img src="images/SLIDER FOTO 5.jpg" />
-						<img src="images/SLIDER FOTO 6.jpg" />
-						<img src="images/SLIDER FOTO 1.jpg" />
-					</div>
-				</div>
-				<div class="info">
-					<div class="infoImg">
-						<div class="infoImg2">
-							<h3 class="shadow">Schoolvisie</h3>
-						</div>
-						<p>
-							<strong class="strong2">Een warme school:</strong> In een warme
-							school staat het welzijn van elkaar centraal, waarbij de nadruk
-							ligt op onderlinge zorg en het creëren van een positieve sfeer.
-							<br />
-							<br /><strong class="strong2">Een taalrijke school:</strong> In
-							een taalrijke school wordt via meertaligheid gestreefd naar het
-							versterken van de Nederlandse taal.<br />
-							<br />
-							<strong class="strong2">OLB:</strong> Bij het OLB begeleiden we
-							continu de leerlingen gedurende hun volledige schoolcarrière door
-							voortdurende evaluatie en heroverweging van hun eigen talenten en
-							studiekeuzes.
-						</p>
-					</div>
-					<div class="infoImg">
-						<div class="infoImg2">
-							<h3 class="shadow">
-								Inschrijven <br />
-								2024 - 2025
-							</h3>
-						</div>
-						<p>
-							<strong class="strong2"
-								>Inschrijvingen staan open vanaf de zomervakantie!</strong
-							>
-							<br />
-							<br />
-							<strong>Tot 5 juli:</strong> elke dag van 9u tot 12u <br />
-							<strong>Vanaf 16 augustus: </strong> van 9u tot 12u <br /><br />
-							<em
-								>Tijdens de periode van 6 juli tot 15 augustus is de school
-								gesloten en kunnen er geen inschrijvingen doorgaan. Deze dienen
-								fysiek plaats te vinden op de school.</em
-							>
-						</p>
-					</div>
-					<div class="infoImg">
-						<div class="infoImg2">
-							<h3 class="shadow">infodagen</h3>
-						</div>
-						<p>
-							<strong
-								>Donderdag 9 februari 2024 om 18u is iedereen welkom in het open
-								leercentrum.</strong
-							>
-						</p>
+				<p>
+					In de <strong>tweede graad</strong> kan je binnen de dubbele
+					finaliteit kiezen voor verschillende richtingen aanleunend bij jouw
+					talenten en interesses.
+				</p>
+
+				<li class="graad-list2">Bedrijf & Organisatie</li>
+				<li class="graad-list2">Toerisme</li>
+
+				<div class="grid">
+					<div class="grid-container-4">
+						<div class="item1"><h2>vakken</h2></div>
+						<div class="item2"><h2>3e JAAR - DF</h2></div>
+						<div class="item3"><h2>4e JAAR - DF</h2></div>
+						<div class="item4"><h3>B&O</h3></div>
+						<div class="item5"><h3>TOE</h3></div>
+						<div><h3>B&O</h3></div>
+						<div><h3>TOE</h3></div>
+						<div><h3>Aarderijkskunde</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>Cultuur</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>Duits</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>Engels</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>Frans</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>Geschiedenis</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>Levensbeschouwing</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>Lichamelijke Opvoeding</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>Natuurwetenschappen</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>Nederlands</h3></div>
+						<div><h3>5</h3></div>
+						<div><h3>5</h3></div>
+						<div><h3>5</h3></div>
+						<div><h3>5</h3></div>
+						<div><h3>Toegepaste Economie</h3></div>
+						<div><h3>8</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>9</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>Toegepaste informatica</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>Toerisme</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>6</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>6</h3></div>
+						<div><h3>Toeristische Geografie</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>1</h3></div>
+						<div><h3>-</h3></div>
+						<div><h3>2</h3></div>
+						<div><h3>Wiskunde</h3></div>
+						<div><h3>4</h3></div>
+						<div><h3>4</h3></div>
+						<div><h3>3</h3></div>
+						<div><h3>3</h3></div>
 					</div>
 				</div>
 			</div>
