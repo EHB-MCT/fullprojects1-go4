@@ -200,6 +200,7 @@
 
 	#socialWrapping {
 		width: 100%;
+		margin-left: -10px;
 	}
 
 	.social_media_icons a img {
