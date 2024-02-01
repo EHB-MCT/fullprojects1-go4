@@ -151,6 +151,11 @@
 		height: 30px;
 	}
 
+	.footer_contact {
+		margin-top: -0px;
+		margin-bottom: 10px;
+	}
+
 	.go_brussel {
 		align-self: center;
 		margin: 50px 0;
@@ -166,8 +171,22 @@
 	}
 
 	.social_media_icons {
+		margin-top: -10px;
 		display: flex;
 		flex-direction: row;
+	}
+
+	.social_media_icons a {
+		height: 60px;
+		width: 60px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.social_media_icons a img {
+		margin-top: -15px;
+		height: 120%;
 	}
 
 	.footer_column_two {
@@ -237,6 +256,13 @@
 		justify-content: center;
 	}
 
+	.grid-container-2,
+	.grid-container-3,
+	.grid-container-4,
+	.grid-container-5 {
+		margin-bottom: -60px;
+	}
+
 	.grid-container-1 {
 		grid-template-columns: 380px 100px 100px;
 		margin-right: 10px;
@@ -248,6 +274,7 @@
 		grid-template-columns: 280px 100px 100px 100px;
 		margin-right: 10px;
 		margin-left: 10px;
+		margin-bottom: -80px;
 	}
 
 	.grid-container-3 {
