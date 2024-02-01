@@ -422,6 +422,10 @@ footer {
 	align-content: space-evenly;
 }
 
+.factuur_links_block:hover {
+	box-shadow: -10px -10px#ff8ecc;
+}
+
 .factuur_links_block h3 {
 	margin: 0 auto;
 	display: flex;
