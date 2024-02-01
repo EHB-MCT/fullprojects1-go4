@@ -21,7 +21,8 @@
 	.drop-in,
 	.menu,
 	.rectangle,
-	footer {
+	footer,
+	.hamburger {
 		width: 640px;
 	}
 	.basic_structure_top_2 h2,
