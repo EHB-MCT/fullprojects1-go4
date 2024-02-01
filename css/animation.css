@@ -110,7 +110,7 @@ p {
 		img {
 			animation: scale-a-lil linear both;
 			animation-timeline: view();
-			animation-range: 0vh 50vh;
+			animation-range: 10vh 40vh;
 		}
 	}
 }
