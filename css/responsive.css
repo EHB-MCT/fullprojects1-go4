@@ -28,6 +28,9 @@
 	.basis_structure_top h2 {
 		margin: 0 auto;
 	}
+	.menu-buttom-container {
+		margin-right: -300px;
+	}
 }
 
 @media screen and (max-width: 800px) {
