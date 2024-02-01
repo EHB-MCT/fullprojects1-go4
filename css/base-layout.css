@@ -50,7 +50,7 @@
 
 .slider-frame {
 	display: block;
-	margin: 75px auto 250px auto;
+	margin: 75px auto 250px 115px;
 	width: 1000px;
 	height: 660px;
 	overflow: hidden;
@@ -484,10 +484,10 @@ footer {
 .socialMedia .basic_block {
 	padding: 5px;
 	background-color: #c6076f;
+	box-shadow: -10px -10px#ff8ecc;
 	text-align: center;
 	color: white;
 	height: 30px;
-	border-radius: 30px;
 	width: 200px;
 }
 
