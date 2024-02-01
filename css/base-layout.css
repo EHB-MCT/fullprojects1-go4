@@ -290,8 +290,8 @@ footer {
 .go {
 	font-size: 25px;
 	padding: 44px;
-	border-radius: 35px;
 	background-color: #c6076f;
+	box-shadow: -10px -10px #ff8ecc;
 	color: white;
 	display: inline-block;
 	justify-content: space-between;
@@ -300,7 +300,6 @@ footer {
 .go:hover {
 	font-size: 25px;
 	padding: 44px;
-	border-radius: 35px;
 	background-color: #f3d8e5;
 	color: black;
 }
