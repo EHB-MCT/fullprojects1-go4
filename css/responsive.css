@@ -73,7 +73,13 @@
 	.factuur_wrapper,
 	.infrastructuur_wrapper,
 	.socialeMedia,
-	.info {
+	.info,
+	.basic_block,
+	.frame,
+	.infonight_wrapper,
+	.basis_structure_top,
+	.basis_structure_top2,
+	.main_map {
 		width: 640px;
 		margin: 0 auto;
 	}
@@ -278,22 +284,24 @@
 		margin-right: 0px;
 	}
 	.boxtwee {
-		width: 600px;
+		width: 560px;
 	}
 	.boxdrie {
-		width: 630px;
+		width: 580px;
 	}
 	.boxvier {
-		width: 660px;
+		width: 600px;
 	}
 	.boxvijf {
-		margin-left: -70px;
+		margin-left: -20px;
+		width: 600px;
 	}
 	.basis_structuur_wrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: start;
-		margin-left: 50px;
+		margin-left: 20px;
+		width: 620px;
 	}
 	/* factuur */
 	.factuur_links {
@@ -329,7 +337,7 @@
 		margin: 20px;
 	}
 
-	.basis_structuur_top {
+	.basis_structure_top {
 		margin-bottom: 50px;
 	}
 	/* infrastructuur */
@@ -342,11 +350,65 @@
 	.socialeMedia .basic_block {
 		margin: 0px 0px;
 	}
+
+	.basic_block {
+		margin-left: 0px;
+	}
+
 	/* sociaal contact */
 	.PlanInfo {
 		margin: 0px;
 	}
 	.info2 {
 		width: 500px;
+	}
+	.Picture {
+		width: 600px;
+		margin-right: 260px;
+		margin-top: -300px;
+	}
+
+	.Picture img {
+		margin-top: 350px;
+		width: 580px;
+	}
+
+	.main_map {
+		display: block;
+		flex-direction: column wrap;
+		margin-left: 65px;
+	}
+	#map-container {
+		margin-left: 0px;
+	}
+	#blocks {
+		display: block;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 0px;
+	}
+	#frames {
+		margin: 0;
+		margin-top: 50px;
+	}
+	.infonight_wrapper {
+		margin-left: 50px;
+		width: 580px;
+	}
+	.basis_structure_wrapper {
+		width: 580px;
+		margin-left: -10px;
+	}
+
+	#blocks2,
+	#blocks3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#blocks2 img,
+	#blocks3 img {
+		margin-left: 200px;
+		margin-top: -20px;
 	}
 }
