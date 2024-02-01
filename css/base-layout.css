@@ -471,6 +471,8 @@ footer {
 .infrastructuur_block_img img {
 	width: 400px;
 	margin: 20px;
+	justify-content: center;
+	align-content: center;
 }
 
 .infrastructuur_block_text {
@@ -704,7 +706,7 @@ address {
 }
 
 .boxtwee {
-	margin: 100px 700px;
+	margin: 100px 550px;
 	width: 700px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
@@ -724,7 +726,7 @@ address {
 }
 
 .boxvier {
-	margin: 100px 700px;
+	margin: 100px 550px;
 	width: 700px;
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
@@ -767,6 +769,12 @@ address {
 	margin: 100px;
 	flex-direction: row;
 }
+
+#blocks {
+	width: 600px;
+	margin-left: -30px;
+}
+
 .infonight_wrapper .basic_block {
 	background-color: #c6076f;
 	box-shadow: -10px -10px #ff8ecc;
@@ -792,12 +800,13 @@ address {
 .frame img {
 	margin-top: 100px;
 }
+
 .infonight_wrapper .basis_structuur_bottom {
 	margin-top: 500px;
 }
 .Picture img {
 	margin-top: 240px;
-	width: 700px;
+	width: 570px;
 	height: auto;
 }
 
@@ -929,6 +938,19 @@ address {
 	.wanneer .TextBlok p {
 		max-width: 400px;
 	}
+}
+
+.basic_blocks .Kaders {
+	width: 400px;
+}
+
+.basic_blocks {
+	margin-left: -100px;
+}
+
+#img2,
+#img3 {
+	width: 500px;
 }
 
 /*--------------------------------------------------Visie-------------------------------------------------*/
