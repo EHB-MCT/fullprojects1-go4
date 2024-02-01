@@ -822,8 +822,8 @@ address {
 	margin-top: 500px;
 }
 .Picture img {
-	margin-top: 200px;
-	width: 400px;
+	margin-top: 240px;
+	width: 700px;
 	height: auto;
 }
 
@@ -916,8 +916,9 @@ address {
 	margin-top: 800px;
 }
 .wanneer .basic_blocks img {
-	width: 400px;
-	height: auto;
+	margin-top: 250px;
+	width: auto;
+	height: 400px;
 }
 @media (max-width: 460px) {
 	.wanneer {
