@@ -256,7 +256,6 @@
 		justify-content: center;
 	}
 
-	.grid-container-1,
 	.grid-container-2,
 	.grid-container-3,
 	.grid-container-4,
@@ -275,7 +274,6 @@
 		grid-template-columns: 280px 100px 100px 100px;
 		margin-right: 10px;
 		margin-left: 10px;
-		margin-bottom: -80px;
 	}
 
 	.grid-container-3 {
