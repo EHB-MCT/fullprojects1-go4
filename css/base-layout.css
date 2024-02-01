@@ -946,3 +946,9 @@ address {
 	box-shadow: -10px -10px#ff8ecc;
 	margin-bottom: 50px;
 }
+
+.video {
+	display: flex;
+	justify-content: center;
+	margin: 50px auto;
+}
