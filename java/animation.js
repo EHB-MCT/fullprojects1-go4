@@ -8,6 +8,10 @@ window.onscroll = () => {
 	scrollFunction();
 };
 
+window.onclick = () => {
+	scrollFunction();
+};
+
 function scrollFunction() {
 	goToTopButton.style.display = "block";
 }
