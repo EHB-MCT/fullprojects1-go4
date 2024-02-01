@@ -29,6 +29,11 @@
 	.basis_structure_top h2 {
 		margin: 0 auto;
 	}
+
+	#blocks2 .Kaders,
+	#blocks3 .Kaders {
+		margin-left: 200px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -178,6 +183,11 @@
 		justify-content: center;
 		align-content: center;
 	}
+
+	#socialWrapping {
+		width: 100%;
+	}
+
 	.social_media_icons a img {
 		margin-top: -15px;
 		height: 120%;
@@ -269,6 +279,7 @@
 	.theGo {
 		width: 100%;
 		flex-direction: column;
+		margin-top: -100px;
 	}
 	.GO1 {
 		margin-top: 30px;
@@ -335,6 +346,10 @@
 	.infrastructuur_block_img img {
 		width: 200px;
 		margin: 20px;
+	}
+
+	.basic_structure_top {
+		margin-bottom: 50px;
 	}
 
 	.basis_structure_top {
@@ -410,5 +425,15 @@
 	#blocks3 img {
 		margin-left: 200px;
 		margin-top: -20px;
+	}
+
+	#blocks2 .Kaders .basic_block,
+	#blocks3 .Kaders .basic_block {
+		margin-bottom: 20px;
+	}
+
+	#blocks4 .basic_block {
+		display: flex;
+		margin: auto auto;
 	}
 }
